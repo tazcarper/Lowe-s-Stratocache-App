@@ -1,0 +1,411 @@
+[{
+	"index": "0",
+	"img": "house.jpg",
+	"details" : {
+		"title" : "Keep an eye on your home while you're away.",
+		"description" : "Receive alerts and record activity that happens around your house while you’re not there. Set your lights to turn on and cameras to record when a motion sensor is activated."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "300",
+			"left": "323",
+			"title": "Smart Bulb",
+			"description": "Shine a little light on any activity once a motion sensor is activated.",
+			"lower_icon" : "bulb.png",
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "272",
+			"left": "950",
+			"title": "Video Camera",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "videoCamera_s.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h3": {
+			"top": "450",
+			"left": "750",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+	}
+}, {
+	"img": "test.jpg",
+	"details" : {
+		"title" : "Stop a water leak before it becomes a problem.",
+		"description" : "Use the smart water shut-off valve and wireless leak detectors to alert you of water leaks so you can automatically turn off the water supply using the Iris app."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "300",
+			"left": "323",
+			"title": "Smart Bulb",
+			"description": "Shine a little light on any activity once a motion sensor is activated.",
+			"lower_icon" : "bulb.png",
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "272",
+			"left": "950",
+			"title": "Video Camera",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "videoCamera_s.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h3": {
+			"top": "450",
+			"left": "750",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+	}
+},
+{
+	
+	"img": "livingRoom.jpg",
+	"details" : {
+		"title" : "Tell you when your children arrive home safely.",
+		"description" : "Iris tells you when the kids are home from school by alerting you that a door has been unlocked. You can also control TV use to make homework a priority."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "300",
+			"left": "130",
+			"title": "Smart Bulb",
+			"description": "Shine a little light on any activity once a motion sensor is activated.",
+			"lower_icon" : "bulb.png",
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "393",
+			"left": "440",
+			"title": "Video Camera",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "videoCamera_s.png",
+			"position" : "right",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h3": {
+			"top": "260",
+			"left": "900",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+	}
+},
+{
+	"addSpace": "true",
+	"img": "carbon.jpg",
+	"details" : {
+		"title" : "Alert you to a CO leak and react accordingly.",
+		"description" : "Don't take any chances when it comes to CO leaks in your home. Set up Iris so that when the CO detector is triggered your house will automatically react to let you know of danger."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "222",
+			"left": "20",
+			"title": "Smart Bulb",
+			"description": "Shine a little light on any activity once a motion sensor is activated.",
+			"lower_icon" : "bulb.png",
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "245",
+			"left": "330",
+			"title": "Video Camera",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "videoCamera_s.png",
+			"position" : "right",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h3": {
+			"top": "222",
+			"left": "585",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "right",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h4": {
+			"top": "420",
+			"left": "740",
+			"title": "Video Camera",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "videoCamera_s.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h5": {
+			"top": "272",
+			"left": "1003",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+	}
+},
+{
+	"index": "0",
+	"img": "nightActivity.jpg",
+	"details" : {
+		"title" : "Detect motion and turn on lights when you need them.",
+		"description" : "Nighttime snack? Midnight bathroom break? Both can be easier. Just set a motion sensor to trigger lights in your bathroom and hallways to turn on when motion is detected late at night."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "320",
+			"left": "440",
+			"title": "Light Switch",
+			"description": "Set lights to only turn on halfway during nighttime bathroom breaks.",
+			"lower_icon" : "bulb.png",
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "72",
+			"left": "656",
+			"title": "Motion Sensor",
+			"description": "Set your motion sensor to trigger lights when you’re up at night.",
+			"icon" : "videoCamera_s.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		
+	}
+},
+{
+	
+	"img": "protect.jpg",
+	"details" : {
+		"title" : "Watch over the status of valuable items in your home.",
+		"description" : "Keep important items safe when you aren't home using a tilt sensor to detect when your jewelry box is being opened without your permission. For extra security, use a camera as well."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "30",
+			"left": "45",
+			"title": "Video Camera",
+			"description": "Keep an eye on valuables any time of the day with a well-placed camera.",
+			"position" : "right",
+			"icon" : "videoCamera_s",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "519",
+			"left": "940",
+			"title": "Tilt Sensor",
+			"description": "Be alerted when a valuable box is opened with a simple tilt sensor.",
+			"icon" : "videoCamera_s",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		
+	}
+},
+{
+	
+	"img": "petMonitor.jpg",
+	"details" : {
+		"title" : "Monitor your pets while you’re away.",
+		"description" : "Keep an eye on your pet while you’re at work. A motion sensor and camera can be the perfect at-home assistant to monitor all your pet’s daily habits."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "30",
+			"left": "27",
+			"title": "Video Camera",
+			"description": "SPlace a camera near a food bowl to monitor your pet's eating habits.",
+		
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "68",
+			"left": "983",
+			"title": "Motion Sensor",
+			"description": "A motion sensor can let you know where your pet is during the day.",
+			
+			"position" : "left",
+			"icon" : "videoCamera_s",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		
+	}
+},
+{
+	
+	"img": "nightWatch.jpg",
+	"details" : {
+		"title" : "Record activities that happen throughout the night.",
+		"description" : "Peace of mind is important for a good night's rest. Iris can provide just that by turning on a porch light, setting your camera to record, and sending you an alert when either device is activated."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "475",
+			"left": "220",
+			"title": "Light Switch",
+			"description": "Porch lights can turn on when motion is activated at night.",
+			"lower_icon" : "bulb.png",
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "272",
+			"left": "950",
+			"title": "Video Camera",
+			"description": "A camera can record activities that happen around the house at night.",
+			"icon" : "videoCamera_s.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		
+	}
+},
+{
+	"addSpace": "true",
+	"img": "glassBreaking.jpg",
+	"details" : {
+		"title" : "Inform you when glass is broken and sound the alarm.",
+		"description" : "Be the first to know when glass is broken in your home so you can make sure everything is safe. Iris can tell  you when glass is broken and react accordingly."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "60",
+			"left": "50",
+			"title": "Smart Bulb",
+			"description": "Shine a little light on any activity once a motion sensor is activated.",
+			"lower_icon" : "bulb.png",
+			"position" : "right",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "80",
+			"left": "400",
+			"title": "Video Camera",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "videoCamera_s.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h3": {
+			"top": "225",
+			"left": "525",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "right",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h4": {
+			"top": "450",
+			"left": "750",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h5": {
+			"top": "35",
+			"left": "990",
+			"title": "Motion Sensor",
+			"description": "Record any activity around the home with a strategically placed camera.",
+			"icon" : "1-b-motion.png",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+	}
+},
+{
+	"index": "0",
+	"img": "handsOff.jpg",
+	"details" : {
+		"title" : "Know when a cabinet, cupboard or drawer is opened.",
+		"description" : "Iris door and window sensors can help you keep an eye on cupboards, drawers and boxes that contain things like cleaning products that children shouldn't touch. Sensors can alert you when one is opened."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "520",
+			"left": "572",
+			"title": "Contact Sensor",
+			"description": "Place a sensor on a drawer or cabinet to be alerted if it's opened.",
+			"lower_icon" : "bulb.png",
+			"position" : "left",
+			"icon" : "1-a-bulb.png",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+	}
+}
+]

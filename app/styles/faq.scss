@@ -1,0 +1,66 @@
+@import "color.scss";
+@import "bourbon";
+
+.faq {
+	background: url('../images/faqBG.png') 0 -0px no-repeat;
+	padding-top: 170px;
+	height: 1820px;
+	background-size: 100%;
+
+	h1 {
+		color: $getStarted;
+		font-size: 7em;
+		margin-bottom: 7rem;
+	}
+	h2 {
+		height: 135px;
+		padding-top: 42px;
+		margin: 0;
+		text-align: center;
+	}
+	p {
+		padding-top: 1.4rem;
+		padding-left: 1.7rem;
+		padding-right: 1.7rem;
+		font-family: "AvenirNextLTW01-Regular";
+		font-size: 1.2em;
+	}
+	ul {
+		padding-left:1.7rem;
+		padding-top: 1.4rem;
+		li {
+			font-size:1.05em;
+		}
+	}
+	.podContainer {
+		height: 1095px;
+		overflow: hidden;
+	}
+	.faqPod {
+		background: url('../images/faqHeader.png') 0 0px no-repeat;
+		background-color: #02a9e1;
+		height: 340px;
+		margin-bottom: 25px;
+		position: relative;
+	}
+	.arrow {
+		position: absolute;
+		margin-left: 3rem;
+		opacity: 1;
+		&.inactive {
+			-webkit-filter: grayscale(100%);
+			-moz-filter: grayscale(100%);
+			-ms-filter: grayscale(100%);
+			-o-filter: grayscale(100%);
+			filter: grayscale(100%);
+			opacity: .4;
+		}
+		&.upArrow {
+			top: 0;
+		}
+		&.downArrow {
+			bottom: 0;
+			@include transform(rotate(180deg));
+		}
+	}
+}

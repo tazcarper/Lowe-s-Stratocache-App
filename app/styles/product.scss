@@ -1,0 +1,80 @@
+@import "color.scss";
+
+.product {
+	padding-top: 155px;
+	height: 1820px;
+	h1 {
+		color: $blue;
+		font-size:105px;
+		margin-bottom: 100px;
+	}
+	.productBlock {
+		height: 290px;
+		background:$blue;
+		border:5px solid white;
+		&.blank {
+			background:white;
+			pointer-events:none;
+			h4 {
+				color: $blue;
+				font-family: "AvenirNextLTW01-UltraLi";
+				font-size:95px;
+				bottom:60px;
+				line-height: 75px;
+			}
+		}
+		.block {
+			position: absolute;
+			top:30px;
+			left:60px;
+		}
+		h4 {
+			color: white;
+			position: absolute;
+			bottom:25px;
+			width:100%;
+			text-align: center;
+			left:0;
+		}
+	}
+	.productInfoBox {
+		position: absolute;
+		top:0;
+		padding-top: 155px;
+		background-color: white;
+		height: 1820px;
+		display: block;
+		opacity:0;
+		pointer-events:none;
+		transition:0.2s ease all;
+		
+		&.active {
+			opacity: 1;
+		    pointer-events:all;
+		}
+		.back {
+			padding-left: 50px;
+		}
+		.productInfo {
+		text-align: center;
+		h2 {
+			color: $blue;
+			font-size:54px;
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 70px;
+			margin-top: 65px;
+		}
+		h3 {
+			font-family: "Museo Slab W01_300";
+			color: $grey;
+			font-size: 36px;
+			padding:0 10%;
+			line-height: 54px;
+			margin-bottom: 75px;
+		}
+
+	}
+	}
+	
+}

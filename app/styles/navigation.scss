@@ -1,0 +1,61 @@
+@import "color.scss";
+
+header {
+	float: left;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 9;
+	&.faqActive {
+		ul {
+			li {
+				background:#f0efeb;
+				color: $navBlue;
+			}
+		}
+	}
+	&.productActive {
+		ul {
+			li {
+				background:$lightGrey;
+				color: $blue;
+			}
+		}
+	}
+	ul {
+		padding: 20px 0 0 0;
+		width: 980px;
+		margin: 0 auto;
+
+		li {
+			width: 240px;
+			margin: 0 2px;
+			list-style: none;
+			background: rgba(255, 255, 255, .20);
+			color: rgba(255, 255, 255, .25);
+			float: left;
+			text-align: center;
+			font-size: 28px;
+			font-family: "AvenirNextLTW01-Regular";
+			padding: 10px 0;
+
+			&.selected {
+				color: white;
+				background: $navBlue;
+			}
+			
+		}
+		a {
+
+			&:nth-last-child(2) {
+				li {
+					&.selected {
+					background: white;
+					color: $navBlue;
+				}
+				}
+				
+			}
+		}
+	}
+}

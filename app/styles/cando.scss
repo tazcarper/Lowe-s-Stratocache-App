@@ -1,0 +1,140 @@
+@import "color.scss";
+$menuItemHeight : 70px;
+.cando {
+	 background: url('../images/purpleBG.png') 0 0 no-repeat;
+	 height: 1820px;
+	 padding-top: 100px;
+	 h1 {
+	 	text-align: center;
+	 	font-size:115px;
+	 	padding-top: 6rem;
+	 	margin-bottom: 0;
+	 	padding-bottom: 0;
+	 }
+	 h2 {
+	 	color:$blue;
+	 	font-size:26px;
+	 	font-family: "Avenir Next LT W01 Demi";
+	 	text-align: center;
+	 	text-transform: uppercase;
+	 	margin-top: 10px;
+	 	padding-top: 0;
+	 	margin-bottom: 6rem;
+	 }
+	 .blueMenu {
+	 	
+	 	
+	 	.item {
+	 		width:20%;
+	 		text-align: center;
+	 		padding: 0;
+	 		padding-top: 27px;
+	 		background:$blue;
+	 		height:$menuItemHeight;
+        	box-shadow: inset 5px 0 7px -5px rgba(0, 0, 0, 0.4);
+        	font-size:16px;
+        	text-transform: uppercase;
+        	&.active {
+        		background:$pink;
+        	}
+        	&:first-child {
+        		box-shadow: none;
+        	}
+        	&.two-lines {
+        		padding-top: 16px;
+        	}
+	 	}
+	 }
+	 .focusArea {
+	 	height: 750px;
+	 	
+	 	background-size: 100% !important;
+	 	width:100%;
+	 	.hotspot {
+	 		position: absolute;
+	 	}
+	 }
+	 .description {
+	 	display: none;
+	 	background:$pink;
+	 	padding: 30px 35px;
+	 	border-radius: 5px;
+	 	position: absolute;
+	 	top:45px;
+	 	left:43px;
+	 	width:310px;
+	 	z-index: 55;
+	 	p {
+	 		font-size:15px;
+	 		font-family: "Museo Slab W01_100";
+	 	}
+	 	h3 {
+	 		 font-family: "AvenirNextLTW01-Regular";
+	 		 text-transform: uppercase;
+	 	}
+	 	&.left {
+	 		left:-260px;
+	 		img {
+	 			right:-19px;
+	 			left:auto;
+	 		}
+	 	}
+	 	h3 {
+	 		margin-top: 0;
+	 	}
+	 	img {
+	 		position: absolute;
+	 		top:-20px;
+	 		left:-19px;
+	 	}
+	 }
+	 .hotspot {
+	 	&.active {
+	 		.description {
+	 			display: block;
+	 		}
+	 	}
+	 }
+	 .sectionDetails {
+	 	padding-left:50px;
+	 	h3 {
+	 		color: white;
+	 		font-size:40.5px;
+	 		font-family: "AvenirNextLTW01-Regular";
+	 		margin-top: 3px;
+	 		margin-bottom: 30px;
+	 	}
+	 	h4 {
+	 		color: $blue;
+	 		font-size:19px;
+	 		margin-bottom: 3px;
+	 		margin-top: 80px;
+	 	}
+	 	p {
+			font-family: "Museo Slab W01_100";
+			font-size:18px;
+	 	}
+	 }
+	
+	.icon {
+		float: left;
+		margin-left:20px;
+		&:before {
+			content:'+';
+			font-size:26px;
+			color: rgba(255,255,255,.38);
+			position: relative;
+			top:28px;
+			left:82px;
+			font-family: "AvenirNextLTW01-UltraLi";
+			line-height: 0;
+			display: block;
+		}
+		&:last-child {
+			&:before {
+				content:'';
+			}
+		}
+		
+	}
+}

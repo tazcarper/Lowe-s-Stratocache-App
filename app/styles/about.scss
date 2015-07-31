@@ -1,0 +1,32 @@
+
+.about {
+	 background: url('../images/about-bg.jpg') 0 0 no-repeat;
+	 height: 1820px;
+	 padding-top: 100px;
+	h1 {
+		font-size:158px;
+		line-height: 17rem;
+		margin-bottom: 7rem;
+		margin-top: 7rem;
+	}
+	p {
+		font-size:32px;
+		position: relative;
+		z-index: 5;
+		
+	}
+	.button {
+		text-transform: uppercase;
+		.whiteArrow {
+			width:15px;
+		}
+	}
+	.house_diagram {
+		  // height: 1100px;
+	  padding-top: 1075px;
+	  position: relative;
+	  background: url("../images/house_diagram.png") top center no-repeat;
+	  top: -210px;
+	
+	}
+}

@@ -1,0 +1,10 @@
+<header ng-hide="isActive('/')" ng-class="{ faqActive: isActive('/faq') , productActive: isActive('/productCat')}">
+<a href="/#/index.html">Home</a>
+	
+	<ul>
+		<a  href="#/about"><li ng-class="{selected: isActive('/about') }">About Iris</li></a>
+		<a href="#/cando"><li ng-class="{selected: isActive('/cando') }">What it can do</li></a>
+		<a href="#/getstarted"><li ng-class="{selected: isActive('/getstarted') }">Get started</li>
+		<a href="#/faq"><li ng-class="{selected: isActive('/faq') }">FAQs</li>
+	</ul>
+</header>

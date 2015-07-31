@@ -1,0 +1,208 @@
+// $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+// bower:
+// endbower
+@import "../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bourbon";
+@import "color.scss";
+@import "navigation.scss";
+@import "about.scss";
+@import "cando.scss";
+@import "getStarted.scss";
+@import "faq.scss";
+@import "product.scss";
+
+
+// fonts
+@font-face {
+  font-family: "AvenirNextLTW01-UltraLi";
+  src: url("Fonts/17c55b27-e9ab-43cd-b948-d49f97480d68.eot?#iefix");
+  src: url("Fonts/17c55b27-e9ab-43cd-b948-d49f97480d68.eot?#iefix") format("eot"), url("Fonts/2e3f5cb9-101f-46cf-a7b3-dfaa58261e03.woff2") format("woff2"), url("Fonts/fa19948e-5e38-4909-b31e-41acd170d6f2.woff") format("woff"), url("Fonts/6de0ce4d-9278-467b-b96f-c1f5f0a4c375.ttf") format("truetype"), url("Fonts/9fd4ea0c-b19a-4b21-9fdf-37045707dd78.svg#9fd4ea0c-b19a-4b21-9fdf-37045707dd78") format("svg");
+}
+@font-face {
+  font-family: "AvenirNextLTW01-Regular";
+  src: url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix");
+  src: url("Fonts/e9167238-3b3f-4813-a04a-a384394eed42.eot?#iefix") format("eot"), url("Fonts/2cd55546-ec00-4af9-aeca-4a3cd186da53.woff2") format("woff2"), url("Fonts/1e9892c0-6927-4412-9874-1b82801ba47a.woff") format("woff"), url("Fonts/46cf1067-688d-4aab-b0f7-bd942af6efd8.ttf") format("truetype"), url("Fonts/52a192b1-bea5-4b48-879f-107f009b666f.svg#52a192b1-bea5-4b48-879f-107f009b666f") format("svg");
+}
+@font-face {
+  font-family: "AvenirNextLTW01-Medium";
+  src: url("Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix");
+  src: url("Fonts/1a7c9181-cd24-4943-a9d9-d033189524e0.eot?#iefix") format("eot"), url("Fonts/627fbb5a-3bae-4cd9-b617-2f923e29d55e.woff2") format("woff2"), url("Fonts/f26faddb-86cc-4477-a253-1e1287684336.woff") format("woff"), url("Fonts/63a74598-733c-4d0c-bd91-b01bffcd6e69.ttf") format("truetype"), url("Fonts/a89d6ad1-a04f-4a8f-b140-e55478dbea80.svg#a89d6ad1-a04f-4a8f-b140-e55478dbea80") format("svg");
+}
+@font-face {
+  font-family: "Avenir Next LT W01 Demi";
+  src: url("Fonts/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix");
+  src: url("Fonts/12d643f2-3899-49d5-a85b-ff430f5fad15.eot?#iefix") format("eot"), url("Fonts/aad99a1f-7917-4dd6-bbb5-b07cedbff64f.woff2") format("woff2"), url("Fonts/91b50bbb-9aa1-4d54-9159-ec6f19d14a7c.woff") format("woff"), url("Fonts/a0f4c2f9-8a42-4786-ad00-fce42b57b148.ttf") format("truetype"), url("Fonts/99affa9a-a5e9-4559-bd07-20cf0071852d.svg#99affa9a-a5e9-4559-bd07-20cf0071852d") format("svg");
+}
+@font-face {
+  font-family: "Museo Slab W01_100";
+  src: url("Fonts/01ab709f-22cf-4831-b24a-8cf4eb852687.eot?#iefix");
+  src: url("Fonts/01ab709f-22cf-4831-b24a-8cf4eb852687.eot?#iefix") format("eot"), url("Fonts/8528fae1-3f0d-4d71-8937-63670fceef7c.woff2") format("woff2"), url("Fonts/cacc0862-f146-4746-92b1-60e6114a66c4.woff") format("woff"), url("Fonts/54006f54-b61e-4103-abf8-b1d0294a2a9c.ttf") format("truetype"), url("Fonts/e5841f2e-b306-4583-bfc3-a0e06742fedd.svg#e5841f2e-b306-4583-bfc3-a0e06742fedd") format("svg");
+}
+@font-face {
+  font-family: "Museo Slab W01_300";
+  src: url("Fonts/39a8c847-6d65-44ec-92e6-46e2aa8db834.eot?#iefix");
+  src: url("Fonts/39a8c847-6d65-44ec-92e6-46e2aa8db834.eot?#iefix") format("eot"), url("Fonts/23674a3a-6e87-4ade-817d-6bd3b6a7d538.woff2") format("woff2"), url("Fonts/4548ac88-af2c-4b63-ac2b-94e9ef6cd1b9.woff") format("woff"), url("Fonts/380327b2-8e54-40b1-a569-eb17e46f7e17.ttf") format("truetype"), url("Fonts/dedfb9ca-341f-404d-b76e-d781f9ee375f.svg#dedfb9ca-341f-404d-b76e-d781f9ee375f") format("svg");
+}
+@font-face {
+  font-family: "Museo Slab W01_500";
+  src: url("Fonts/2656a5f2-9367-4d1d-af19-8cd9f9028d08.eot?#iefix");
+  src: url("Fonts/2656a5f2-9367-4d1d-af19-8cd9f9028d08.eot?#iefix") format("eot"), url("Fonts/16bb87bf-d138-429b-bc78-dae6c4f109fb.woff2") format("woff2"), url("Fonts/3cf54835-9705-474e-9afa-46f2d59589e7.woff") format("woff"), url("Fonts/1bc72f40-8f25-47dd-874e-a829e7e992f6.ttf") format("truetype"), url("Fonts/5329032e-48ad-4e1a-9b4c-6b847641304c.svg#5329032e-48ad-4e1a-9b4c-6b847641304c") format("svg");
+}
+$footerHeight: 100px;
+$headerHeight: 162px;
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+body {
+  font-size: 16px;
+  padding: 0;
+  color: white;
+  cursor: pointer;
+  // remove this top!!!!!!!!!!!!! browser testing 
+  // top:-75px;
+  font-family: "AvenirNextLTW01-Medium";
+  // Rotation view start
+  // -moz-transform: rotate(-90deg);
+  //  transform: rotate(-90deg);
+  // overflow: hidden;
+  // Height of toolbar? Not sure...
+  left:48px;
+  // rotation view end
+ //left: -360px;
+ // left:-37px;
+  // max-width: 1920px;
+ // bottom:36px;
+  // max-height: 1200px;
+  
+  position: absolute;
+  // background: black;
+  height: 100%;
+}
+.container {
+  // max-width: 1920px !important;
+  // max-height: 1200px;
+  margin:0;
+  padding: 0;
+  width:1080px !important;
+  overflow: hidden;
+  //height: 1920px;
+}
+.container-fluid {
+}
+// white arrow
+h1 {
+  font-family: "AvenirNextLTW01-UltraLi";
+}
+h2 {
+}
+p {
+  font-family: "Museo Slab W01_300";
+}
+.background {
+  // switch to width
+  // min-width: 1920px;
+  // max-height: 1920px;
+  //padding-top: $headerHeight;
+  background-size:100%;
+}
+.main {
+  background: url('../images/purpleBG.png') 0 0 no-repeat;
+  // change to width when turned?
+  height: 1920px;
+}
+
+.button {
+  color: white;
+  border-radius: 5px;
+  @include linear-gradient(90deg, #0075AD 3%, #02A9E1 100%);
+  padding: 1.25rem 3rem 1.25rem 3rem;
+  font-size: 23px;
+  text-align: center;
+  line-height: 1.2em;
+  display: inline-block;
+  font-family: "AvenirNextLTW01-Medium";
+  @include transition(all .8s ease-in-out);
+
+  &:hover, &:focus {
+    text-decoration: none;
+    color: white;
+    @include linear-gradient(90deg, darken(#0075AD, 5%) 3%, darken(#02A9E1, 5%) 100%);
+  }
+}
+.homeButton {
+  width: 580px;
+  text-align: left;
+  font-size: 2.5em;
+  padding: 3.25rem 0 3.25rem 11rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.whiteArrow {
+  width: 25px;
+  display: inline-block;
+  margin-left: 5px;
+}
+.irisLogo-white {
+  width: 250px;
+}
+.homeLogo {
+  text-align: center;
+  width: 180px;
+  margin: 3rem auto 3rem auto;
+}
+.homeAnimation {
+  text-align: center;
+}
+footer {
+  background: white;
+  width: 100%;
+  height: $footerHeight;
+  position: relative;
+  //top:-150px;
+  left: 0;
+  z-index: 999;
+  a {
+    outline: none;
+  }
+  ul {
+    padding: 0;
+    border-top: 1px solid #999899;
+    width: 100%;
+    a {
+      &:last-child {
+        li {
+          border-left: 1px solid #ebebec;
+        box-shadow: inset 7px 0 9px -7px rgba(0, 0, 0, 0.2); 
+        }
+      }
+    }
+    li {
+      list-style: none;
+      width: 50%;
+      font-size: 38px;
+      font-family: "AvenirNextLTW01-Regular";
+      float: left;
+      height: $footerHeight;
+      text-align: center;
+      padding-top: 22px;
+      color: $footerBlue;
+
+      
+    }
+  }
+}
+
+.fade.ng-enter {
+  transition:0.5s linear all;
+  opacity:0;
+}
+
+/* The finishing CSS styles for the enter animation */
+.fade.ng-enter.ng-enter-active {
+  opacity:1;
+}

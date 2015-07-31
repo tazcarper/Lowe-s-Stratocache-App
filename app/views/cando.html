@@ -1,0 +1,74 @@
+<div class="background {{bodyClass}}" >
+<div class="container">
+
+<div class="row">
+	<div class="col-md-10 col-md-offset-1">
+		<h1>What can Iris do?</h1>
+		<h2>Touch a scenario below to see what iris can do for you.</h2>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 blueMenu">
+		<div class="row">
+			<div class="col-md-5 item active" ng-class="{active : activeSection === 0}" ng-click="checkIt(0)">Home Protection</div>
+			<div class="col-md-5 item" ng-class="{active : activeSection === 1}" ng-click="checkIt(1)">Water Leak Alert</div>
+			<div class="col-md-5 item" ng-class="{active : activeSection === 2}" ng-click="checkIt(2)">Kids Home Safe</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 3}" ng-click="checkIt(3)">Carbon Monoxide Detection</div>
+			<div class="col-md-5 item" ng-class="{active : activeSection === 4}" ng-click="checkIt(4)">Night Activity</div>
+
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 focusArea" ng-style="mainImage">
+		<div ng-repeat="hotspot in hotspot_coord" >
+			<hotspot></hotspot>
+		</div>
+		<!-- <div class="hotspot" style="top:406px; left:437px; "><img src="../images/cando/hotspot.png" height="90" width="91"></div>
+		<div class="hotspot" style="top:380px; left:680px; "><img src="../images/cando/hotspot.png" height="90" width="91"></div>
+		<div class="hotspot"></div> -->
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 blueMenu">
+		<div class="row">
+			<div class="col-md-5 item" ng-class="{active : activeSection === 5}" ng-click="checkIt(5)">Protect Valuables</div>
+			<div class="col-md-5 item" ng-class="{active : activeSection === 6}" ng-click="checkIt(6)">Pet Monitoring</div>
+			<div class="col-md-5 item" ng-class="{active : activeSection === 7}" ng-click="checkIt(7)">Night Watch</div>
+			<div class="col-md-5 item " ng-class="{active : activeSection === 8}" ng-click="checkIt(8)">Glass Breaking</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 9}" ng-click="checkIt(9)">Hands-Off <br/>Cabinets</div>
+		
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-12 sectionDetails">
+		<h4>IRIS CAN</h4>
+		<h3>{{currentSection.details.title}}</h3>
+		<div class="row">
+			<div class="" ng-class="{'col-md-5' : currentSection.addSpace, 'col-md-6': !currentSection.addSpace}">
+				<p>
+					{{currentSection.details.description}}
+				</p>
+			</div>
+			<div class="" ng-class="{'col-md-7' : currentSection.addSpace, 'col-md-6': !currentSection.addSpace}">
+				<div class="icon" ng-repeat="hotspot in hotspot_coord" >
+					
+					<div ng-if="!isSelected(hotspot)">
+					<img ng-src="../images/cando/detail-icons/{{hotspot.inactive}}.png"  ng-click="setMaster(hotspot)">
+					</div>
+					<div ng-if="isSelected(hotspot)">
+						<img ng-src="../images/cando/detail-icons/{{hotspot.active}}.png" ng-click="setMaster()">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+

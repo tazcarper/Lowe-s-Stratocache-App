@@ -1,0 +1,8 @@
+<div class="hotspot" ng-class="{active : isSelected(hotspot)}" >
+<img src="images/cando/hotspot.png" height="90" width="91" ng-click="setMaster(hotspot)">
+
+<div class="description" ng-class="{ left : hotspot.position == 'left'}" ng-click="setMaster()"><img ng-src="images/cando/{{hotspot.icon}}.png" alt="Icon">
+<h3>{{hotspot.title}}</h3>
+<p>{{hotspot.description}}</p>
+</div>
+</div>

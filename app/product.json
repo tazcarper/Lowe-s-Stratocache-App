@@ -1,0 +1,43 @@
+[{
+"products": {
+	"p1" : {
+		"title":"The Hub",
+		"icon":"hub",
+		"pic":"hub_l",
+		"headline":"Lights, Switches & Outlets",
+		"description": "Choose from 2 levels of plans. The Basic Plan is Free and allows you to control your devices from your Iris app. The Premium Plan provides advanced ways to monitor and control your home pay just $9.99 a month (plus applicable taxes) with no contract."
+	},
+	"p2" : {
+	"title" : "Cameras & Sensors",
+	"icon":"hub" 
+	},
+	"p3" : {
+	"title" : "Doors & Locks",
+	"icon":"hub" 
+	},
+	"p4" : {
+	"title" : "Heating & Cooling",
+	"icon":"hub" 
+	},
+	"p5" : {
+	"blank" : "true",
+	"title" : "Pick one" 
+	},
+	"p6" : {
+	"title" : "Home Protection & Security",
+	"icon":"hub" 
+	},
+	"p7" : {
+	"title" : "Appliances",
+	"icon":"hub" 
+	},
+	"p8" : {
+	"title" : "Lights, Switches & Outlets",
+	"icon":"hub" 
+	},
+	"p9" : {
+	"title" : "Outdoor",
+	"icon":"hub" 
+	}
+}
+}]
