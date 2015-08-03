@@ -8,7 +8,7 @@ var app = angular.module('hotspot', []);
 app.directive('hotspot', function(){
 
 	function link(scope, element){
-		console.log(scope);
+		//console.log(scope);
 		element.css(
 			{
 			'top':scope.hotspot.top + 'px',

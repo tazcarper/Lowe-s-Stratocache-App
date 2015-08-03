@@ -1,43 +1,60 @@
 [{
 "products": {
 	"p1" : {
-		"title":"The Hub",
+		"title":"Hub & Kits",
 		"icon":"hub",
-		"pic":"hub_l",
+		"pic":"wifi_l",
 		"headline":"Lights, Switches & Outlets",
-		"description": "Choose from 2 levels of plans. The Basic Plan is Free and allows you to control your devices from your Iris app. The Premium Plan provides advanced ways to monitor and control your home pay just $9.99 a month (plus applicable taxes) with no contract."
+		"description": "Get the Iris hub and build your ecosystem around it. Or opt for an Iris Kit. The Safe & Secure Kit comes with a keypad, and sensors. The Comfort & Control Kit features a thermostat and smart plug. And the Smart Kit combines them both. "
 	},
 	"p2" : {
 	"title" : "Cameras & Sensors",
-	"icon":"hub" 
+	"icon":"wifi" ,
+	"description": "Iris can help you keep watch over your home and your loved ones with an extensive offering of indoor and outdoor cameras, motion sensors, key fobs, and more. Get alerts and see what’s happening at home while your away, 24/7. ",
+	"headline":"Cameras & Sensors",
+	"pic":"sensor_l"
 	},
 	"p3" : {
 	"title" : "Doors & Locks",
-	"icon":"hub" 
+	"icon":"lock",
+	"pic":"lock_l" ,
+	"description": "Choose from 2 levels of plans. The Basic Plan is Free and allows you to control your devices from your Iris app. The Premium Plan provides advanced ways to monitor and control your home pay just $9.99 a month (plus applicable taxes) with no contract."
 	},
 	"p4" : {
 	"title" : "Heating & Cooling",
-	"icon":"hub" 
+	"icon":"heating",
+	"pic":"heating_l",
+	"description": "Energy savings comes standard with a smart thermostat. With Iris, you’re house will always be at the right temperature. Iris can adjust the thermostat according to the time of day, or even recognize if someone is in the home."
+ 
 	},
 	"p5" : {
 	"blank" : "true",
-	"title" : "Pick one" 
+	"title" : "Pick one",
+	"description": "Choose from 2 levels of plans. The Basic Plan is Free and allows you to control your devices from your Iris app. The Premium Plan provides advanced ways to monitor and control your home pay just $9.99 a month (plus applicable taxes) with no contract."
+
+
 	},
 	"p6" : {
 	"title" : "Home Protection & Security",
-	"icon":"hub" 
+	"icon":"homeLock",
+	"pic":"homeLock_l",
+	"description": "Choose from 2 levels of plans. The Basic Plan is Free and allows you to control your devices from your Iris app. The Premium Plan provides advanced ways to monitor and control your home pay just $9.99 a month (plus applicable taxes) with no contract."
+	  
 	},
 	"p7" : {
-	"title" : "Appliances",
-	"icon":"hub" 
+	"title" : "Accessories",
+	"icon":"window",
+	"pic":"window_l" 
 	},
 	"p8" : {
 	"title" : "Lights, Switches & Outlets",
-	"icon":"hub" 
+	"icon":"switch",
+	"pic":"switch_l"
 	},
 	"p9" : {
 	"title" : "Outdoor",
-	"icon":"hub" 
+	"icon":"outdoor",
+	"pic":"outdoor_l" 
 	}
 }
 }]

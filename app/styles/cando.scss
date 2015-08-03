@@ -2,7 +2,7 @@
 $menuItemHeight : 70px;
 .cando {
 	 background: url('../images/purpleBG.png') 0 0 no-repeat;
-	 height: 1820px;
+	 height: $pageHeightFull;
 	 padding-top: 100px;
 	 h1 {
 	 	text-align: center;
@@ -75,7 +75,7 @@ $menuItemHeight : 70px;
 	 	&.left {
 	 		left:-260px;
 	 		img {
-	 			right:-19px;
+	 			right:-25px;
 	 			left:auto;
 	 		}
 	 	}
@@ -84,8 +84,8 @@ $menuItemHeight : 70px;
 	 	}
 	 	img {
 	 		position: absolute;
-	 		top:-20px;
-	 		left:-19px;
+	 		top:-30px;
+	 		left:-26px;
 	 	}
 	 }
 	 .hotspot {
@@ -118,19 +118,21 @@ $menuItemHeight : 70px;
 	
 	.icon {
 		float: left;
-		margin-left:20px;
-		&:before {
-			content:'+';
-			font-size:26px;
-			color: rgba(255,255,255,.38);
-			position: relative;
-			top:28px;
-			left:82px;
-			font-family: "AvenirNextLTW01-UltraLi";
-			line-height: 0;
-			display: block;
-		}
-		&:last-child {
+		 margin-left:19px;
+
+		// &:before {
+		// 	content:'+';
+		// 	font-size:26px;
+		// 	color: rgba(255,255,255,.38);
+		// 	position: relative;
+		// 	top:38px;
+		// 	left:-11%;
+		// 	font-family: "AvenirNextLTW01-UltraLi";
+		// 	line-height: 0;
+		// 	display: block;
+		// }
+		&:first-child {
+			margin-left: 0;
 			&:before {
 				content:'';
 			}

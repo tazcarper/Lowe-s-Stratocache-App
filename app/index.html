@@ -23,7 +23,7 @@
     
 
     <div ng-include src="'includes/navigation.html'"></div>
-    <div class="page" ng-view></div>
+    <div class="page" ng-view ng-click="setTime()"></div>
      <div ng-include src="'includes/footer.html'"></div>
 
     
@@ -55,13 +55,16 @@
     <!-- endbuild -->
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
+
         <script src="scripts/app.js"></script>
+
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/cando.js"></script>
         <script src="scripts/controllers/started.js"></script>
         <script src="scripts/controllers/faq.js"></script>
         <script src="scripts/controllers/product.js"></script>
+        <script src="scripts/controllers/servicePlans.js"></script>
         <!-- Services -->
         <script src="scripts/services/candoList.js"></script>
         <script src="scripts/services/productList.js"></script>

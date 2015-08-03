@@ -1,7 +1,13 @@
 // $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
 // bower:
 // endbower
+
 @import "../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+
+$footerHeight: 100px;
+$headerHeight: 162px;
+$pageHeightWithBot: 1653px;
+$pageHeightFull: 1820px;
 @import "bourbon";
 @import "color.scss";
 @import "navigation.scss";
@@ -10,7 +16,7 @@
 @import "getStarted.scss";
 @import "faq.scss";
 @import "product.scss";
-
+@import "servicePlans.scss";
 
 // fonts
 @font-face {
@@ -48,8 +54,6 @@
   src: url("Fonts/2656a5f2-9367-4d1d-af19-8cd9f9028d08.eot?#iefix");
   src: url("Fonts/2656a5f2-9367-4d1d-af19-8cd9f9028d08.eot?#iefix") format("eot"), url("Fonts/16bb87bf-d138-429b-bc78-dae6c4f109fb.woff2") format("woff2"), url("Fonts/3cf54835-9705-474e-9afa-46f2d59589e7.woff") format("woff"), url("Fonts/1bc72f40-8f25-47dd-874e-a829e7e992f6.ttf") format("truetype"), url("Fonts/5329032e-48ad-4e1a-9b4c-6b847641304c.svg#5329032e-48ad-4e1a-9b4c-6b847641304c") format("svg");
 }
-$footerHeight: 100px;
-$headerHeight: 162px;
 
 .browsehappy {
   margin: 0.2em 0;
@@ -134,10 +138,10 @@ p {
   }
 }
 .homeButton {
-  width: 580px;
-  text-align: left;
+  width: 780px;
+  text-align: center;
   font-size: 2.5em;
-  padding: 3.25rem 0 3.25rem 11rem;
+  padding: 3.25rem 0 3.25rem 0rem;
   margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 5rem;
@@ -174,6 +178,7 @@ footer {
     border-top: 1px solid #999899;
     width: 100%;
     a {
+
       &:last-child {
         li {
           border-left: 1px solid #ebebec;
@@ -191,10 +196,14 @@ footer {
       text-align: center;
       padding-top: 22px;
       color: $footerBlue;
-
+      &.selected {
+        background:$footerBlue;
+        color: white;
+      }
       
     }
   }
+
 }
 
 .fade.ng-enter {

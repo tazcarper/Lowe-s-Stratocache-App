@@ -37,7 +37,7 @@ angular.module('stratocacheApp')
 		};
 		$scope.checkIt = function(sec) {
 			$scope.activeSection = sec;
-			console.log();
+			
 			$scope.mainImage = {
 				"background": "url('images/cando/" + list[sec].img + "')"
 			};
@@ -51,12 +51,7 @@ angular.module('stratocacheApp')
 				$scope.hotspot_coord.push(value);
 			}
 
-			// hotspot_coord.map(function(e) {
-			// 	console.log(e);
-
-			// });
-			// console.log('hotspots');
-			console.log($scope.hotspot_coord);
+		
 
 
 		};

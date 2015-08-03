@@ -12,18 +12,18 @@
 			"left": "323",
 			"title": "Smart Bulb",
 			"description": "Shine a little light on any activity once a motion sensor is activated.",
-			"lower_icon" : "bulb.png",
+			
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "SmartBulb_s",
+			"active":"SmartBulb_a",
+			"inactive":"SmartBulb_i"
 		},
 		"h2": {
 			"top": "272",
 			"left": "950",
 			"title": "Video Camera",
 			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "videoCamera_s.png",
+			"icon" : "videoCamera_s",
 			"position" : "left",
 			"active":"videoCamera_a",
 			"inactive":"videoCamera_i"
@@ -34,10 +34,10 @@
 			"left": "750",
 			"title": "Motion Sensor",
 			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
+			"icon" : "MotionSensor_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"MotionSensor_a",
+			"inactive":"MotionSensor_i"
 		}
 	}
 }, {
@@ -51,34 +51,25 @@
 		"h1": {
 			"top": "300",
 			"left": "323",
-			"title": "Smart Bulb",
-			"description": "Shine a little light on any activity once a motion sensor is activated.",
-			"lower_icon" : "bulb.png",
+			"title": "Leak Detector",
+			"description": "Wireless leak detectors can alert you immediately of a leak.",
+			
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "LeakDetector_s",
+			"active":"LeakDetector_a",
+			"inactive":"LeakDetector_i"
 		},
 		"h2": {
 			"top": "272",
 			"left": "950",
 			"title": "Video Camera",
 			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "videoCamera_s.png",
+			"icon" : "ShutOffValve_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
-		},
-		"h3": {
-			"top": "450",
-			"left": "750",
-			"title": "Motion Sensor",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
-			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"ShutOffValve_a",
+			"inactive":"ShutOffValve_i"
 		}
+		
 	}
 },
 {
@@ -93,23 +84,23 @@
 		"h1": {
 			"top": "300",
 			"left": "130",
-			"title": "Smart Bulb",
-			"description": "Shine a little light on any activity once a motion sensor is activated.",
-			"lower_icon" : "bulb.png",
+			"title": "Smart Locks",
+			"description": "Lock and unlock doors to make sure your children are in safe.",
+			
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "SmartLock_s",
+			"active":"SmartLock_a",
+			"inactive":"SmartLock_i"
 		},
 		"h2": {
 			"top": "393",
 			"left": "440",
-			"title": "Video Camera",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "videoCamera_s.png",
+			"title": "Smart Fob",
+			"description": "A smart fob on a backpack can unlock the door when your kids get home.",
+			"icon" : "SmartFob_s",
 			"position" : "right",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"SmartFob_a",
+			"inactive":"SmartFob_i"
 		}
 		,
 		"h3": {
@@ -117,10 +108,10 @@
 			"left": "900",
 			"title": "Motion Sensor",
 			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
+			"icon" : "SmartPlug_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"SmartPlug_a",
+			"inactive":"SmartPlug_i"
 		}
 	}
 },
@@ -136,56 +127,56 @@
 		"h1": {
 			"top": "222",
 			"left": "20",
-			"title": "Smart Bulb",
-			"description": "Shine a little light on any activity once a motion sensor is activated.",
-			"lower_icon" : "bulb.png",
+			"title": "Siren",
+			"description": "You can set up your siren to immediately go off when CO is detected.",
+			
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "Siren_s",
+			"active":"Siren_a",
+			"inactive":"Siren_i"
 		},
 		"h2": {
 			"top": "245",
 			"left": "330",
-			"title": "Video Camera",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "videoCamera_s.png",
+			"title": "Ceiling Fan",
+			"description": "Your ceiling fan can respond when CO is detected to help circulate air.",
+			"icon" : "CeilingFan_s",
 			"position" : "right",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"CeilingFan_a",
+			"inactive":"CeilingFan_i"
 		}
 		,
 		"h3": {
 			"top": "222",
 			"left": "585",
-			"title": "Motion Sensor",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
+			"title": "Co Detector",
+			"description": "When CO is detected, you will be immediately alerted.",
+			"icon" : "COdetector_s",
 			"position" : "right",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"COdetector_a",
+			"inactive":"COdetector_i"
 		}
 		,
 		"h4": {
 			"top": "420",
 			"left": "740",
-			"title": "Video Camera",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "videoCamera_s.png",
+			"title": "Door Locks",
+			"description": "Iris can unlock appropriate doors to let you out safely when CO is detected.",
+			"icon" : "SmartLock_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"SmartLock_a",
+			"inactive":"SmartLock_i"
 		}
 		,
 		"h5": {
 			"top": "272",
 			"left": "1003",
-			"title": "Motion Sensor",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
+			"title": "Lights",
+			"description": "Iris can turn on lights in your bedroom or other area when CO is detected.",
+			"icon" : "SmartBulb_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"SmartBulb_a",
+			"inactive":"SmartBulb_i"
 		}
 	}
 },
@@ -203,21 +194,21 @@
 			"left": "440",
 			"title": "Light Switch",
 			"description": "Set lights to only turn on halfway during nighttime bathroom breaks.",
-			"lower_icon" : "bulb.png",
+			
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "LightSwitch_s",
+			"active":"LightSwitch_a",
+			"inactive":"LightSwitch_i"
 		},
 		"h2": {
 			"top": "72",
 			"left": "656",
 			"title": "Motion Sensor",
 			"description": "Set your motion sensor to trigger lights when you’re up at night.",
-			"icon" : "videoCamera_s.png",
+			"icon" : "MotionSensor_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"MotionSensor_a",
+			"inactive":"MotionSensor_i"
 		}
 		
 	}
@@ -246,10 +237,10 @@
 			"left": "940",
 			"title": "Tilt Sensor",
 			"description": "Be alerted when a valuable box is opened with a simple tilt sensor.",
-			"icon" : "videoCamera_s",
+			"icon" : "TiltSensor_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"TiltSensor_a",
+			"inactive":"TiltSensor_i"
 		}
 		
 	}
@@ -270,7 +261,7 @@
 			"description": "SPlace a camera near a food bowl to monitor your pet's eating habits.",
 		
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
+			"icon" : "videoCamera_s",
 			"active":"videoCamera_a",
 			"inactive":"videoCamera_i"
 		},
@@ -281,9 +272,9 @@
 			"description": "A motion sensor can let you know where your pet is during the day.",
 			
 			"position" : "left",
-			"icon" : "videoCamera_s",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "MotionSensor_s",
+			"active":"MotionSensor_a",
+			"inactive":"MotionSensor_i"
 		}
 		
 	}
@@ -302,18 +293,18 @@
 			"left": "220",
 			"title": "Light Switch",
 			"description": "Porch lights can turn on when motion is activated at night.",
-			"lower_icon" : "bulb.png",
+			
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "LightSwitch_s",
+			"active":"LightSwitch_a",
+			"inactive":"LightSwitch_i"
 		},
 		"h2": {
 			"top": "272",
 			"left": "950",
 			"title": "Video Camera",
 			"description": "A camera can record activities that happen around the house at night.",
-			"icon" : "videoCamera_s.png",
+			"icon" : "videoCamera_s",
 			"position" : "left",
 			"active":"videoCamera_a",
 			"inactive":"videoCamera_i"
@@ -333,56 +324,56 @@
 		"h1": {
 			"top": "60",
 			"left": "50",
-			"title": "Smart Bulb",
-			"description": "Shine a little light on any activity once a motion sensor is activated.",
-			"lower_icon" : "bulb.png",
+			"title": "Video Camera",
+			"description": "A camera can record any activity that happens when a window is broken.",
+			
 			"position" : "right",
-			"icon" : "1-a-bulb.png",
+			"icon" : "videoCamera_s",
 			"active":"videoCamera_a",
 			"inactive":"videoCamera_i"
 		},
 		"h2": {
 			"top": "80",
 			"left": "400",
-			"title": "Video Camera",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "videoCamera_s.png",
+			"title": "Glass Break Sensor",
+			"description": "Detects a glass break and tell Iris to sound the alarm.",
+			"icon" : "GlassBreakSensor_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"GlassBreakSensor_a",
+			"inactive":"GlassBreakSensor_i"
 		}
 		,
 		"h3": {
-			"top": "225",
-			"left": "525",
-			"title": "Motion Sensor",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
+			"top": "205",
+			"left": "565",
+			"title": "Light Switch",
+			"description": "Lights can be set to turn on when a glass break is detected. ",
+			"icon" : "LightSwitch_s",
 			"position" : "right",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"LightSwitch_a",
+			"inactive":"LightSwitch_i"
 		}
 		,
 		"h4": {
 			"top": "450",
-			"left": "750",
-			"title": "Motion Sensor",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
+			"left": "770",
+			"title": "Smart Plug",
+			"description": "A smart plug can be set to turn on lamps, stereos, TVs and more when glass is broken.",
+			"icon" : "SmartPlug_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"SmartPlug_a",
+			"inactive":"SmartPlug_i"
 		}
 		,
 		"h5": {
 			"top": "35",
 			"left": "990",
-			"title": "Motion Sensor",
-			"description": "Record any activity around the home with a strategically placed camera.",
-			"icon" : "1-b-motion.png",
+			"title": "Siren",
+			"description": "An indoor siren can be set to activate if a glass break is detected.",
+			"icon" : "Siren_s",
 			"position" : "left",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"active":"Siren_a",
+			"inactive":"Siren_i"
 		}
 	}
 },
@@ -400,11 +391,11 @@
 			"left": "572",
 			"title": "Contact Sensor",
 			"description": "Place a sensor on a drawer or cabinet to be alerted if it's opened.",
-			"lower_icon" : "bulb.png",
+			
 			"position" : "left",
-			"icon" : "1-a-bulb.png",
-			"active":"videoCamera_a",
-			"inactive":"videoCamera_i"
+			"icon" : "ContactSensor_s",
+			"active":"ContactSensor_a",
+			"inactive":"ContactSensor_i"
 		}
 	}
 }

@@ -22,7 +22,10 @@
   ])
     .controller('global', ['$scope', '$location', '$rootScope',function($scope, $location, $rootScope) {
       $scope.bodyClass='';
-      
+      $scope.setTime = function(){
+       $rootScope.lastDigestRun = Date.now();
+       console.log($rootScope.lastDigestRun);
+      };
 
      
     //  console.log($scope.bodyClass);
@@ -59,12 +62,34 @@
         controller: 'FaqCtrl',
         controllerAs: 'faq'
       })
-         .when('/productCat',{
+        .when('/productCat',{
         templateUrl: 'views/productCat.html',
         controller: 'ProductCtrl',
         controllerAs: 'product'
       })
+        .when('/servicePlans',{
+        templateUrl: 'views/servicePlans.html',
+        controller: 'ServicePlansCtrl',
+        controllerAs: 'servicePlans'
+      })
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+.run(function($rootScope, $location, $interval) {
+
+    $rootScope.lastDigestRun = Date.now();
+   $interval(function() {
+      console.log('check idle');
+        var now = Date.now();            
+        if (now - $rootScope.lastDigestRun > 3*60*1000 && $location.path() !== '/') {
+           console.log('go home');
+          // $location.path('/');
+        }
+    }, 60*1000);
+
+    $rootScope.$on('$routeChangeStart', function() {
+        $rootScope.lastDigestRun = Date.now();  
+    });
+  
+});

@@ -58,13 +58,17 @@
 			<div class="" ng-class="{'col-md-7' : currentSection.addSpace, 'col-md-6': !currentSection.addSpace}">
 				<div class="icon" ng-repeat="hotspot in hotspot_coord" >
 					
-					<div ng-if="!isSelected(hotspot)">
-					<img ng-src="../images/cando/detail-icons/{{hotspot.inactive}}.png"  ng-click="setMaster(hotspot)">
+					<div ng-if="!isSelected(hotspot)" >
+					<img ng-src="../images/cando/{{hotspot.inactive}}.png"  ng-click="setMaster(hotspot)">
+
 					</div>
 					<div ng-if="isSelected(hotspot)">
-						<img ng-src="../images/cando/detail-icons/{{hotspot.active}}.png" ng-click="setMaster()">
+						<img ng-src="../images/cando/{{hotspot.active}}.png" ng-click="setMaster()">
+
 					</div>
+				
 				</div>
+
 			</div>
 		</div>
 	</div>
