@@ -39,22 +39,25 @@
 	"icon":"homeLock",
 	"pic":"homeLock_l",
 	"description": "Choose from 2 levels of plans. The Basic Plan is Free and allows you to control your devices from your Iris app. The Premium Plan provides advanced ways to monitor and control your home pay just $9.99 a month (plus applicable taxes) with no contract."
-	  
+
 	},
 	"p7" : {
 	"title" : "Accessories",
 	"icon":"window",
-	"pic":"window_l" 
+	"pic":"window_l",
+	"description": "The customizable DIY smart home system wouldn’t be complete without extension cables and range extenders to allow you to reach the farthest corners of your entire house."
 	},
 	"p8" : {
 	"title" : "Lights, Switches & Outlets",
 	"icon":"switch",
-	"pic":"switch_l"
+	"pic":"switch_l",
+	"description": "Customize a lighting system for any time of the day. Iris can turn lights on and off at specific times or even when motion is detected. Smart plugs, light switches and outlets are compatible with the Iris system."
 	},
 	"p9" : {
 	"title" : "Outdoor",
 	"icon":"outdoor",
-	"pic":"outdoor_l" 
+	"pic":"outdoor_l",
+	"description": "Turn your lawn and garden into an outdoor oasis with a sprinkler controller or hose faucet timer connected to your Iris system. Iris can water the yard or give the flowers a drink in the morning or at night."
 	}
 }
 }]
