@@ -84,9 +84,9 @@
         var now = Date.now();            
         if (now - $rootScope.lastDigestRun > 3*60*1000 && $location.path() !== '/') {
            console.log('go home');
-          // $location.path('/');
+           $location.path('/');
         }
-    }, 60*1000);
+    }, 29*1000);
 
     $rootScope.$on('$routeChangeStart', function() {
         $rootScope.lastDigestRun = Date.now();  

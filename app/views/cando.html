@@ -22,12 +22,20 @@
 </div>
 <div class="row">
 	<div class="col-md-12 focusArea" ng-style="mainImage">
+	
+	<div ng-repeat="item in list" style="opacity:0; height:0;">
+		
+		<img ng-src="images/cando/{{item.img}}" alt="" style="opacity:0;">
+		<!-- <div ng-repeat="h in item.hotspots">
+			<img ng-src="images/cando/{{h.icon}}.png" alt="" style="opacity:0;">
+			<img ng-src="images/cando/{{h.active}}.png" alt="" style="opacity:0;">
+			<img ng-src="images/cando/{{h.inactive}}.png" alt="" style="opacity:0;">
+		</div> -->
+	</div>
 		<div ng-repeat="hotspot in hotspot_coord" >
 			<hotspot></hotspot>
 		</div>
-		<!-- <div class="hotspot" style="top:406px; left:437px; "><img src="../images/cando/hotspot.png" height="90" width="91"></div>
-		<div class="hotspot" style="top:380px; left:680px; "><img src="../images/cando/hotspot.png" height="90" width="91"></div>
-		<div class="hotspot"></div> -->
+		
 	</div>
 </div>
 <div class="row">
@@ -58,12 +66,12 @@
 			<div class="" ng-class="{'col-md-7' : currentSection.addSpace, 'col-md-6': !currentSection.addSpace}">
 				<div class="icon" ng-repeat="hotspot in hotspot_coord" >
 					
-					<div ng-if="!isSelected(hotspot)" >
-					<img ng-src="../images/cando/{{hotspot.inactive}}.png"  ng-click="setMaster(hotspot)">
-
+					<div >
+					<img ng-src="images/cando/{{hotspot.inactive}}.png"  ng-click="setMaster(hotspot)" style="position;relative:top:0;" ng-style="isSelected(hotspot) === true && {'opacity':'0'}">
 					</div>
-					<div ng-if="isSelected(hotspot)">
-						<img ng-src="../images/cando/{{hotspot.active}}.png" ng-click="setMaster()">
+					
+					<div >
+						<img ng-src="images/cando/{{hotspot.active}}.png" ng-click="setMaster()" style="position:relative;top:-100px;" ng-show="isSelected(hotspot)">
 
 					</div>
 				

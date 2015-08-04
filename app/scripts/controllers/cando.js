@@ -10,7 +10,7 @@
 angular.module('stratocacheApp')
 	.controller('CandoCtrl', ['$scope', 'CanDoList', function($scope, CanDoList) {
 
-		var list = [];
+		$scope.list = [];
 		$scope.hotspot_coord = [];
 		$scope.bodyClass = 'cando';
 
@@ -39,11 +39,13 @@ angular.module('stratocacheApp')
 			$scope.activeSection = sec;
 			
 			$scope.mainImage = {
-				"background": "url('images/cando/" + list[sec].img + "')"
+				"background": "url('images/cando/" + $scope.list[sec].img + "')"
 			};
+
+			$scope.imgImg = 'images/cando/' + $scope.list[sec].img ;
 			$scope.hotspot_coord = [];
-			$scope.currentSection = list[sec];
-			var hotspotList = list[sec].hotspots;
+			$scope.currentSection = $scope.list[sec];
+			var hotspotList = $scope.list[sec].hotspots;
 			for (var key in hotspotList) {
 
 				var value = hotspotList[key];
@@ -57,7 +59,7 @@ angular.module('stratocacheApp')
 		};
 		
 		CanDoList.query().$promise.then(function(data) {
-			list = data;
+			$scope.list = data;
 			$scope.checkIt(0);
 		});
 	}]);
