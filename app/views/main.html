@@ -2,16 +2,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 homeAnimation">
-				<video onended="this.play();" autoplay loop id="homeVideo">
-					<source src="media/iris_final_2.mp4" type="video/mp4" />
-					<source src="media/iris_final_2.ogv" type="video/ogg" />
+				<video onended="this.play();" autoplay loop id="homeVideo" style="outline:none;">
+					<source src="media/stratoFinal3.ogv" type="video/ogg" />
+					<source src="media/stratoFinal3.mp4" type="video/mp4" />
+					<source src="media/stratoFinal3.webm" type="video/webm" />
+					
 				</video>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<a class="button homeButton" href="#/about">
-					Touch to see what else iris can do
+				<a class="button homeButton" href="#/cando">
+					Touch to see what else Iris can do
 					<span class="whiteArrow">
 						<object type="image/svg+xml" data="images/smallWhiteArrow.svg" class="arrow">
 						<!-- fallback image in CSS -->
@@ -22,20 +24,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-12 text-center">
-				<object type="image/svg+xml" data="images/iris-white-logo.svg" class="homeLogo">
-				<!-- fallback image in CSS -->
-				</object>
+			<div class="col-md-12 text-center" style="margin-bottom:50px; margin-top:50px;">
+				<img src="images/iris-white-logo.svg" alt="">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<div class="button">Español</div>
+				<!-- <div class="button">Español</div> -->
 			</div>
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="scripts/seeThru.min.js"></script>
-<script>
-	var transparentVideo = seeThru.create('#homeVideo');
-</script>

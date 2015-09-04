@@ -21,19 +21,19 @@
 			</div>
 			
 		</div>
-		<div class="row">
+		
 			<div class="col-md-12 productInfoBox" ng-repeat="product in products" ng-class="{active : isSelected(product)}" >
 				<div class="back" ng-click="setMaster()">
 				<img src="images/product_cat/backButton.png" height="58" width="161" alt="">
 				</div>
 				<div class=" productInfo">
 					<img ng-src="images/product_cat/{{product.pic}}.png" alt="">
-					<h2>{{product.headline}}</h2>
+					<h2>{{product.title}}</h2>
 					<h3>{{product.description}}</h3>
 					<a href="#/getstarted"><img src="images/product_cat/started_btn.png" height="58" width="374" alt=""></a>
 				</div>
 				
 			</div>
-		</div>
+		
 	</div>
 </div>

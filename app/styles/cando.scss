@@ -7,23 +7,41 @@ $pageHeightFull: 1820px;
 	 height: $pageHeightFull;
 	 padding-top: 100px;
 	 h1 {
-	 	text-align: center;
-	 	font-size:115px;
+	 	text-align: left;
+	 	font-size:148px;
 	 	padding-top: 6rem;
 	 	margin-bottom: 0;
 	 	padding-bottom: 0;
+	 	
 	 }
 	 h2 {
 	 	color:$blue;
-	 	font-size:26px;
+	 	font-size:27px;
 	 	font-family: "Avenir Next LT W01 Demi";
 	 	text-align: center;
 	 	text-transform: uppercase;
 	 	margin-top: 10px;
 	 	padding-top: 0;
 	 	margin-bottom: 6rem;
+	 	
 	 }
-	 
+	
+	 .heroText {
+	 	 p {
+	 	padding-top: 11.4rem;
+	 	font-size: 28px;
+	 	line-height: 1.3em;
+	 }
+	 h1 {
+	 	float: left;
+	 	width:205px;
+	 }
+	 h2 {
+	 	float: left;
+	 	width:100%;
+	 }
+	 }
+
 	 .blueMenu {
 	 	
 	 	
@@ -68,7 +86,7 @@ $pageHeightFull: 1820px;
 	 	width:310px;
 	 	z-index: 55;
 	 	p {
-	 		font-size:15px;
+	 		font-size:14px;
 	 		font-family: "Museo Slab W01_100";
 	 	}
 	 	h3 {
@@ -80,6 +98,13 @@ $pageHeightFull: 1820px;
 	 		img {
 	 			right:-25px;
 	 			left:auto;
+	 		}
+	 	}
+	 	&.topRight {
+	 		top:-100px;
+	 		left:43px;
+	 		img {
+	 			top:116px;
 	 		}
 	 	}
 	 	h3 {
@@ -100,6 +125,7 @@ $pageHeightFull: 1820px;
 	 }
 	 .sectionDetails {
 	 	padding-left:50px;
+	 	min-height: 280px;
 	 	h3 {
 	 		color: white;
 	 		font-size:40.5px;
@@ -116,6 +142,9 @@ $pageHeightFull: 1820px;
 	 	p {
 			font-family: "Museo Slab W01_100";
 			font-size:18px;
+	 	}
+	 	.addPadding {
+	 		padding-right:15px;
 	 	}
 	 }
 	
@@ -140,6 +169,26 @@ $pageHeightFull: 1820px;
 				content:'';
 			}
 		}
-		
+		.iconBlock {
+			position: relative;
+			.iconInner {
+			position: absolute;
+			top:0;
+			left:0;
+			}
+		}
+	}
+	.candoButton {
+		margin:0 auto;
+		margin-top: 90px;
+		width:100%;
+		 font-family: "AvenirNextLTW01-Regular";
+		 font-size:24px;
+		 text-align: center;
+		 text-transform: uppercase;
+		 height: 53px;
+		 .whiteArrow {
+		 	width:15px;
+		 }
 	}
 }

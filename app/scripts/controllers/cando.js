@@ -62,4 +62,5 @@ angular.module('stratocacheApp')
 			$scope.list = data;
 			$scope.checkIt(0);
 		});
+		
 	}]);

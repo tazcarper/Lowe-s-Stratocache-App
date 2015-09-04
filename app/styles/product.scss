@@ -4,6 +4,8 @@ $pageHeightFull: 1820px;
 .product {
 	padding-top: 155px;
 	height: $pageHeightFull;
+	// background: url('../images/faqBG.png') 0 -0px no-repeat;
+	// background-size: 100%;
 	h1 {
 		color: $blue;
 		font-size:105px;
@@ -47,7 +49,7 @@ $pageHeightFull: 1820px;
 		display: block;
 		opacity:0;
 		pointer-events:none;
-		transition:0.2s ease all;
+		//transition:0.2s ease all;
 		
 		&.active {
 			opacity: 1;

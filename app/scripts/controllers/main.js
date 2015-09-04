@@ -10,4 +10,8 @@
 angular.module('stratocacheApp')
   .controller('MainCtrl', ['$scope', function ($scope) {
     $scope.bodyClass = 'main';
+
+    
+
+    
   }]);

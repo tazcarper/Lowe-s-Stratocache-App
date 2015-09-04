@@ -10,37 +10,47 @@ $pageHeightFull: 1820px;
 
 	h1 {
 		color: $getStarted;
-		font-size: 7em;
+		font-size: 9em;
 		margin-bottom: 7rem;
 	}
 	h2 {
-		height: 135px;
-		padding-top: 42px;
+		padding-top: 25px;
+		padding-bottom: 20px;
+		font-size: 45px;
 		margin: 0;
 		text-align: center;
+		background:#319bcd;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+
+	}
+	h3 {
+		color: $pink;
+		font-family: "AvenirNextLTW01-Regular";
 	}
 	p {
-		padding-top: 1.4rem;
-		padding-left: 1.7rem;
-		padding-right: 1.7rem;
+		padding-top: 1.5rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
 		font-family: "AvenirNextLTW01-Regular";
-		font-size: 1.2em;
+		font-size: 1.8em;
 	}
 	ul {
-		padding-left:1.7rem;
-		padding-top: 1.4rem;
+		padding-left:4rem;
+		padding-right: 2rem;
+		padding-top: 1.5rem;
 		li {
-			font-size:1.05em;
+			font-size:1.25em;
 		}
 	}
 	.podContainer {
-		height: 1095px;
+		height: 1000px;
 		overflow: hidden;
 	}
 	.faqPod {
-		background: url('../images/faqHeader.png') 0 0px no-repeat;
+		
 		background-color: #02a9e1;
-		height: 340px;
+		height: 500px;
 		margin-bottom: 25px;
 		position: relative;
 	}

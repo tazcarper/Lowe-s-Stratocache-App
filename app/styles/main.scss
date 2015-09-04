@@ -70,11 +70,11 @@ body {
   // top:-75px;
   font-family: "AvenirNextLTW01-Medium";
   // Rotation view start
-  // -moz-transform: rotate(-90deg);
-  //  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+   transform: rotate(-90deg);
   // overflow: hidden;
   // Height of toolbar? Not sure...
-  left:48px;
+  // left:48px;
   // rotation view end
  //left: -360px;
  // left:-37px;
@@ -114,9 +114,22 @@ p {
   background-size:100%;
 }
 .main {
-  background: url('../images/purpleBG.png') 0 0 no-repeat;
+ /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d2179+56,2d1149+100 */
+
+// red purple
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d2179+58,ce1b6d+100 */
+background: #4b2278; /* Old browsers */
+background: -moz-linear-gradient(top,  #4b2278 58%, #ce1b6d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(58%,#4b2278), color-stop(100%,#ce1b6d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #4b2278 58%,#ce1b6d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #4b2278 58%,#ce1b6d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #4b2278 58%,#ce1b6d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #4b2278 58%,#ce1b6d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b2278', endColorstr='#ce1b6d',GradientType=0 ); /* IE6-9 */
+
   // change to width when turned?
   height: 1920px;
+  padding-top:60px;
 }
 
 .button {
@@ -129,7 +142,7 @@ p {
   line-height: 1.2em;
   display: inline-block;
   font-family: "AvenirNextLTW01-Medium";
-  @include transition(all .8s ease-in-out);
+  height: 53px;
 
   &:hover, &:focus {
     text-decoration: none;
@@ -143,8 +156,9 @@ p {
   font-size: 2.5em;
   padding: 3.25rem 0 3.25rem 0rem;
   margin: 0 auto;
-  margin-top: 2rem;
+  margin-top: 14rem;
   margin-bottom: 5rem;
+  height: 113px;
 }
 .whiteArrow {
   width: 25px;
@@ -214,4 +228,14 @@ footer {
 /* The finishing CSS styles for the enter animation */
 .fade.ng-enter.ng-enter-active {
   opacity:1;
+}
+
+.row.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutter > [class^="col-"],
+.row.no-gutter > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
 }
