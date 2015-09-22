@@ -2,30 +2,36 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
-				<h1>Have Questions?</h1>
+				<h1 ng-hide="isSpanish">Have Questions?</h1>
+				<h1 ng-show="isSpanish">¿Tiene preguntas?</h1>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-8 col-md-offset-1 podContainer">
 				<div class="row faqPod no-gutter" ng-style="{'top': podPosition}" >
 					<div class="col-md-12">
-						<h2>What is Home Automation or Smart Home?</h2>
+						<h2 ng-hide="isSpanish">What is Home Automation or Smart Home?</h2>
+						<h2 ng-show="isSpanish">¿Qué es la automatización del hogar o el hogar inteligente?</h2>
 						<img src="images/faq_header.png" alt="">
-						<p>The use of the Internet to automate and control the devices in your home for improved comfort, energy efficiency and security.</p>
+						<p ng-hide="isSpanish">The use of the Internet to automate and control the devices in your home for improved comfort, energy efficiency and security.</p>
+						<p ng-show="isSpanish">El uso de Internet para automatizar y controlar los aparatos de su casa a fin de aumentar el nivel de comodidad, eficiencia energética y seguridad.</p>
 					</div>
 				</div>
 				<div class="row faqPod no-gutter" ng-style="{'top': podPosition}" >
 					<div class="col-md-12">
-						<h2>What is Iris?</h2>
+						<h2 ng-hide="isSpanish">What is Iris?</h2>
+						<h2 ng-show="isSpanish">¿Qué es Iris?</h2>
 						<img src="images/faq_header.png" alt="">
-						<p>Iris is a simple, customizable home automation system by Lowe’s. Iris lets you manage your smart devices from a single app, giving you control whether you’re home or away.  Great for home owners or renters!</p>
+						<p ng-hide="isSpanish">Iris is a simple, customizable home automation system by Lowe’s. Iris lets you manage your smart devices from a single app, giving you control whether you’re home or away.  Great for home owners or renters!</p>
+						<p ng-show="isSpanish">Iris es un sistema para la automatización del hogar personalizable y sencillo concebido por Lowe’s. Iris le permite administrar sus aparatos inteligentes desde una sola aplicación, lo que le permite controlarlos en casa y fuera de casa. ¡Un sistema excelente tanto para propietarios como para arrendatarios!</p>
 					</div>
 				</div>
 				<div class="row faqPod no-gutter" ng-style="{'top': podPosition}">
 					<div class="col-md-12">
-						<h2>Why should I buy Iris over other systems?</h2>
+						<h2 ng-hide="isSpanish">Why should I buy Iris over other systems?</h2>
+						<h2 ng-show="isSpanish">¿Por qué debería comprar un sistema Iris y no otro sistema?</h2>
 						<img src="images/faq_header.png" alt="">
-						<ul>
+						<ul ng-hide="isSpanish">
 							<li>Iris by Lowe’s offers a wide array of products with over 50 devices.</li>
 							<li>Iris is FREE for basic use and has a premium service as well to create rules between devices. (ex. Turn on your lights when the motion detector senses movement).</li>
 							<li>DIY – Create the system you want, and grow it over time.</li>
@@ -33,40 +39,63 @@
 							<li>Value-priced products from nationally recognized brands.</li>
 							<li>Iris devices are wireless which allows for easy portability.</li>
 						</ul>
+						<ul ng-show="isSpanish">
+							<li style="font-size:.95em;">Iris de Lowe’s le ofrece una amplia gama de productos con más de 50 aparatos.</li>
+							<li style="font-size:.95em;">El servicio básico de Iris es GRATIS y también hay un plan de servicio de primera calidad que permite interconectar los aparatos (por ejemplo, encender las luces cuando se activa el detector de movimiento).</li>
+							<li style="font-size:.95em;">¡Lo puede hacer usted mismo! Cree el sistema que desee y amplíelo con el paso del tiempo.</li>
+							<li style="font-size:.95em;">Servicio disponible mes por mes, sin contratos a largo plazo.</li>
+							<li style="font-size:.95em;">Productos con precios razonables y de marcas reconocidas a nivel nacional.</li>
+							<li style="font-size:.95em;">Los aparatos de Iris son inalámbricos, lo que permite transportarlos fácilmente.</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row faqPod no-gutter" ng-style="{'top': podPosition}" >
 					<div class="col-md-12">
-						<h2>What do I need?</h2>
+						<h2 ng-hide="isSpanish">What do I need?</h2>
+						<h2 ng-show="isSpanish">¿Qué necesito?</h2>
 						<img src="images/faq_header.png" alt="">
-						<ul>
+						<ul ng-hide="isSpanish">
 							<li>Iris hub</li>
 							<li>Smartphone</li>
 							<li>Broadband Internet</li>
 							<li>Router or modem</li>
 							<li>Iris-compatible products</li>
 						</ul>
+						<ul ng-show="isSpanish">
+							<li>Terminal Iris</li>
+							<li>Teléfono inteligente</li>
+							<li>Internet de banda ancha</li>
+							<li>Router o módem</li>
+							<li>Productos compatibles con Iris</li>
+						</ul>
 					</div>
 				</div>
 				<div class="row faqPod no-gutter" ng-style="{'top': podPosition}">
 					<div class="col-md-12">
-						<h2>How do I get started?</h2>
+						<h2 ng-hide="isSpanish">How do I get started?</h2>
+						<h2 ng-show="isSpanish">¿Qué hago para comenzar?</h2>
+						<h2></h2>
 						<img src="images/faq_header.png" alt="">
-						<p>Getting started is easy. Purchase an Iris hub, download the app and connect your products.</p>
+						<p ng-hide="isSpanish">Getting started is easy. Purchase an Iris hub, download the app and connect your products.</p>
+						<p ng-show="isSpanish">Es muy fácil, solo necesita comprar el terminal Iris, descargar la aplicación y conectar sus productos.</p>
 					</div>
 				</div>
 				<div class="row faqPod no-gutter" ng-style="{'top': podPosition}" >
 					<div class="col-md-12">
-						<h2>Can I get Iris professionally installed?</h2>
+						<h2 ng-hide="isSpanish">Can I get Iris professionally installed?</h2>
+						<h2 ng-show="isSpanish">¿Hay servicio de instalación profesional para Iris?</h2>
 						<img src="images/faq_header.png" alt="">
-						<p>Yes. Professional installation is available through our partner, InstallerNet (iris.installernet.com). Need an electrician? Plumber? Find a trusted professional for any job at porch.com.</p>
+						<p ng-hide="isSpanish">Yes. Professional installation is available through our partner, InstallerNet (iris.installernet.com). Need an electrician? Plumber? Find a trusted professional for any job at porch.com.</p>
+						<p ng-show="isSpanish">Sí. La instalación profesional está disponible a través de nuestro socio, InstallerNet (iris.installernet.com). ¿Necesita un electricista o un plomero? En porch.com puede encontrar un profesional confiable para cualquier proyecto.</p>
 					</div>
 				</div>
 				<div class="row faqPod no-gutter" ng-style="{'top': podPosition}" >
 					<div class="col-md-12">
-						<h2>Where can I learn more about Iris?</h2>
+						<h2 ng-hide="isSpanish">Where can I learn more about Iris?</h2>
+						<h2 ng-show="isSpanish">¿Dónde puedo averiguar más sobre Iris?</h2>
 						<img src="images/faq_header.png" alt="">
-						<p>For more information, go to www.irisbylowes.com.</p>
+						<p ng-hide="isSpanish">For more information, go to www.irisbylowes.com.</p>
+						<p ng-show="isSpanish">Para más información, visite www.irisbylowes.com.</p>
 					</div>
 				</div>
 			</div>
@@ -78,7 +107,8 @@
 		<div class="row">
 			<div class="col-md-8 col-md-offset-1 text-center">
 			<img src="images/hr.png" alt="" style="width:100%;">
-				<h3>Didn’t find your answer? Visit <span style="font-family: 'Avenir Next LT W01 Demi';">irisbylowes.com</span>.</h3>
+				<h3 ng-hide="isSpanish">Didn’t find your answer? Visit <span style="font-family: 'Avenir Next LT W01 Demi';">irisbylowes.com</span>.</h3>
+				<h3 ng-show="isSpanish">Si no encontró la respuesta que necesita, visite <span style="font-family: 'Avenir Next LT W01 Demi';"> irisbylowes.com</span>.</h3>
 			</div>
 		</div>
 	</div>

@@ -1,0 +1,103 @@
+<div class="background {{bodyClass}}" >
+<div class="container">
+
+<div class="row">
+	<div class="col-md-10 col-md-offset-1 heroText">
+		<h1 style="padding-top:3rem;">Iris</h1>
+		<p style="font-size:24px; padding-top:8.4rem;">es un sistema personalizable y sencillo concebido por Lowe’s para el hogar inteligente ya que conecta sus aparatos inteligentes a una sola aplicación, lo que le permite monitorearlos y controlarlos todos.</p>
+		<h2>Toque una de las situaciones mencionadas abajo para ver lo que Iris puede hacer por usted.</h2>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-12 blueMenu">
+		<div class="row">
+			<div class="col-md-5 item active two-lines" ng-class="{active : activeSection === 0}" ng-click="checkIt(0)">Protección<br/>del hogar</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 1}" ng-click="checkIt(1)">Alertas de fugas<br/>de agua</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 2}" ng-click="checkIt(2)">Seguridad para<br/>hogares con niños</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 3}" ng-click="checkIt(3)">Detección de<br/>monóxido de carbono</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 4}" ng-click="checkIt(4)">Actividad<br/>nocturna</div>
+
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 focusArea" ng-style="mainImage">
+	
+	<div ng-repeat="item in list" style="opacity:0; height:0;">
+		
+<!-- 		<img ng-src="images/cando/{{item.img}}" alt="" style="opacity:0;"> -->
+		<!-- <div ng-repeat="h in item.hotspots">
+			<img ng-src="images/cando/{{h.icon}}.png" alt="" style="opacity:0;">
+			<img ng-src="images/cando/{{h.active}}.png" alt="" style="opacity:0;">
+			<img ng-src="images/cando/{{h.inactive}}.png" alt="" style="opacity:0;">
+		</div> -->
+	</div>
+		<div ng-repeat="hotspot in hotspot_coord" >
+			<hotspot></hotspot>
+		</div>
+		
+	</div>
+</div>
+<div class="row">
+	<div class="col-md-12 blueMenu">
+		<div class="row">
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 5}" ng-click="checkIt(5)">Protección de<br/>objetos valiosos</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 6}" ng-click="checkIt(6)">Monitoreo de<br/>las mascotas</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 7}" ng-click="checkIt(7)">Vigilancia<br/>nocturna</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 8}" ng-click="checkIt(8)">Rompimiento<br/>de vidrios</div>
+			<div class="col-md-5 item two-lines" ng-class="{active : activeSection === 9}" ng-click="checkIt(9)">Cuidado de<br/>la familia</div>
+		
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-12 sectionDetails">
+		<h4>Iris puede:</h4>
+		<h3 ng-hide="isSpanish">{{currentSection.details.title}}</h3>
+		<h3 ng-show="isSpanish">{{currentSection.details.title_s}}</h3>
+		<div class="row">
+			<div class="" ng-class="{'col-md-5' : currentSection.addSpace, 'col-md-6': !currentSection.addSpace}">
+				<p ng-class="{'addPadding' : currentSection.addPadding}" ng-hide="isSpanish">
+					{{currentSection.details.description}}
+				</p>
+				<p ng-class="{'addPadding' : currentSection.addPadding}" ng-show="isSpanish">
+					{{currentSection.details.description_s}}
+				</p>
+			</div>
+			<div class="" ng-class="{'col-md-7' : currentSection.addSpace, 'col-md-6': !currentSection.addSpace}">
+				<div class="icon" ng-repeat="hotspot in hotspot_coord" >
+					
+					
+					<div style="float:left; display:inline-block; " class="iconBlock" ng-show="isSpanish">
+					<img ng-src="images/cando/{{hotspot.inactive}}_sp.png"  ng-click="setMaster(hotspot)" ng-style="isSelected(hotspot) === true && {'opacity':'0'}" >
+					<img ng-src="images/cando/{{hotspot.active}}_sp.png" ng-click="setMaster()"  ng-show="isSelected(hotspot)" style="" class="iconInner" >
+					</div>
+					
+				
+				</div>
+
+			</div>
+		</div>
+	</div>
+	
+</div>
+<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<a class="button candoButton" href="#/getstarted_s" style="margin-top:40px;">
+					Comencemos
+					<span class="whiteArrow">
+						<object type="image/svg+xml" data="images/smallWhiteArrow.svg" class="arrow">
+						<!-- fallback image in CSS -->
+						</object>
+						
+					</span>
+				</a>
+	</div>
+</div>
+</div>
+</div>
+

@@ -2,7 +2,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-10 col-md-offset-1">
-				<h1>Products tailored just for your home.</h1>
+				<h1 ng-hide="isSpanish">Products tailored just for your home.</h1>
+				<h1 ng-show="isSpanish">Productos personalizados para su hogar.</h1>
 			</div>
 		</div>
 		<div class="row">
@@ -11,10 +12,12 @@
 					<div class="col-md-4 productBlock" ng-repeat="product in products" ng-class="{blank : product.blank}" ng-click="setMaster(product)" >
 						<div ng-if="product.icon">
 							<img ng-src="images/product_cat/{{product.icon}}.png" alt="" class="block">
-							<h4>{{product.title}}</h4>
+							<h4 ng-hide="isSpanish">{{product.title}}</h4>
+							<h4 ng-show="isSpanish" ng-class="{twoLine : product.double}">{{product.title_s}}</h4>
 						</div>
 						<div ng-if="product.blank">
-							<h4>{{product.title}}</h4>
+							<h4 ng-hide="isSpanish">{{product.title}}</h4>
+							<h4 ng-show="isSpanish" >{{product.title_s}}</h4>
 						</div>
 					</div>
 				</div>
@@ -23,14 +26,37 @@
 		</div>
 		
 			<div class="col-md-12 productInfoBox" ng-repeat="product in products" ng-class="{active : isSelected(product)}" >
-				<div class="back" ng-click="setMaster()">
+				<div class="back" ng-click="setMaster()" ng-hide="isSpanish">
 				<img src="images/product_cat/backButton.png" height="58" width="161" alt="">
+				</div>
+				<div class="back" ng-click="setMaster()" ng-show="isSpanish">
+				<img src="images/product_cat/backButton_s.png" height="58" width="161" alt="">
 				</div>
 				<div class=" productInfo">
 					<img ng-src="images/product_cat/{{product.pic}}.png" alt="">
-					<h2>{{product.title}}</h2>
-					<h3>{{product.description}}</h3>
-					<a href="#/getstarted"><img src="images/product_cat/started_btn.png" height="58" width="374" alt=""></a>
+					<h2 ng-hide="isSpanish">{{product.title}}</h2>
+					<h2 ng-show="isSpanish">{{product.title_s}}</h2>
+					<h3 ng-hide="isSpanish">{{product.description}}</h3>
+					<h3 ng-show="isSpanish">{{product.description_s}}</h3>
+					
+					<a class="button " href="#/getstarted" ng-hide="isSpanish">
+					LET'S GET STARTED
+					<span class="whiteArrow" style="width:17px;">
+						<object type="image/svg+xml" data="images/smallWhiteArrow.svg" class="arrow">
+						<!-- fallback image in CSS -->
+						</object>
+						
+					</span>
+					</a>
+					<a class="button " href="#/getstarted_s" ng-show="isSpanish" style="text-transform:uppercase;">
+					Comencemos
+					<span class="whiteArrow" style="width:17px;">
+						<object type="image/svg+xml" data="images/smallWhiteArrow.svg" class="arrow">
+						<!-- fallback image in CSS -->
+						</object>
+						
+					</span>
+					</a>
 				</div>
 				
 			</div>

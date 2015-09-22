@@ -1,15 +1,28 @@
 <div class="background {{bodyClass}}" >
 	<div class="container">
-		<div class="row">
-			<div class="col-md-10 col-md-offset-1">
+		<div class="row" ng-hide="isSpanish">
+			<div class="col-md-10 col-md-offset-1" >
 				<h1>Basic service is free. Upgrade to Premium for just <sup style="top:-.35em; font-size:65%;">$</sup>9.99 per month.</h1>
 				<p>Choose from two levels of plans. The Basic Plan is free and allows you to control your devices from your Iris app. The Premium Plan provides advanced ways to monitor and control your home. It’s free for the first two months, then $9.99 per month (plus applicable taxes) with no contract.</p>
 				<p class="details">For more information on plans and additional services, visit irisbylowes.com.</p>
 			</div>
 		</div>
-		<div class="row">
+		<div class="row" ng-show="isSpanish">
+			<div class="col-md-10 col-md-offset-1">
+				<h1 style="font-size:70px;">Amplíe sus opciones con el servicio de primera calidad por solo <sup style="top:-.35em; font-size:65%;">$</sup>9.99 al mes.</h1>
+				<p>Elija entre dos niveles de planes. El plan básico es gratis y le permite controlar sus aparatos a través de la aplicación de Iris. El plan de primera calidad le brinda opciones avanzadas para monitorear y controlar su hogar. Es gratis por los dos primeros meses y luego tiene una tarifa de $9.99 al mes (más los impuestos correspondientes) sin necesidad de contrato.</p>
+				<p class="details">Para más información sobre los planes y los servicios adicionales, visite irisbylowes.com.</p>
+			</div>
+		</div>
+		<div class="row" ng-hide="isSpanish">
 			<div class="col-md-10 col-md-offset-1" style="padding:0;">
-				<img src="images/serviceChart.png" alt="Service Chart" style="max-width:900px;">
+				<img src="images/serviceChart.png" alt="Service Chart" style="max-width:900px;" >
+			</div>
+		</div>
+		<div class="row" ng-show="isSpanish">
+			<div class="col-md-10 col-md-offset-1" style="padding:0;">
+				<img src="images/serviceChart_s.png" alt="Service Chart" style="max-width:900px;" >
+				
 			</div>
 		</div>
 	</div>

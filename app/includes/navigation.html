@@ -1,10 +1,19 @@
-<header ng-hide="isActive('/')" ng-class="{ faqActive: isActive('/faq') , productActive: isActive('/productCat')}">
+<header ng-hide="isActive('/') || isActive('/main_s')" ng-class="{ faqActive: isActive('/faq') || isActive('/faq_s') , productActive: isActive('/productCat') || isActive('/productCat_s')}">
 
 	
-	<ul>
+	<ul ng-hide="isSpanish">
 		<!-- <a  href="#/about"><li ng-class="{selected: isActive('/about') }">About Iris</li></a> -->
 		<a href="#/cando"><li ng-class="{selected: isActive('/cando') }">What is Iris?</li></a>
 		<a href="#/getstarted"><li ng-class="{selected: isActive('/getstarted') }">Get Started</li>
 		<a href="#/faq"><li ng-class="{selected: isActive('/faq') }">FAQs</li>
+	</ul>
+
+	<ul ng-show="isSpanish">
+	<div style="position:absolute; top:0; left:0; right:0; margin: auto; text-align:center;" >
+	<a ng-click="sendHome()" ><img src="images/backToEnglish.png" alt="Back to English" style="width:200px;"></a>
+</div>
+		<a href="#/cando_s"><li ng-class="{selected: isActive('/cando_s') }">¿Qué es Iris?</li></a>
+		<a href="#/getstarted_s"><li ng-class="{selected: isActive('/getstarted_s') }">Cómo comenzar</li>
+		<a href="#/faq_s"><li ng-class="{selected: isActive('/faq_s') }">Preguntas frecuentes</li>
 	</ul>
 </header>

@@ -1,6 +1,10 @@
-<footer ng-class="{hide: isActive('/') }">
-	<ul>
+<footer ng-hide="isActive('/') || isActive('/main_s')">
+	<ul ng-hide="isSpanish">
 		<a href="#/productCat" ><li ng-class="{selected: isActive('/productCat') }">Product Categories</li></a>
 		<a href="#/servicePlans" ><li ng-class="{selected: isActive('/servicePlans') }">Service Plans</li></a>
+	</ul>
+	<ul ng-show="isSpanish">
+		<a href="#/productCat_s" ><li ng-class="{selected: isActive('/productCat_s') }">Categorías de los productos</li></a>
+		<a href="#/servicePlans_s" ><li ng-class="{selected: isActive('/servicePlans_s') }">Planes de servicio</li></a>
 	</ul>
 </footer>

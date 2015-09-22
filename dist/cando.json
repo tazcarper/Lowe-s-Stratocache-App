@@ -1,0 +1,480 @@
+[{
+	"index": "0",
+	"img": "house.jpg",
+	"details" : {
+		"title" : "Keep an eye on your home while you’re away.",
+		"title_s":"Vigilar su hogar cuando usted está fuera de casa.",
+		"description" : "Receive alerts and record activity that happens around your house while you’re not there. Set your lights to turn on and cameras to record when a motion sensor is activated.",
+		"description_s" : "Recibir alertas y grabar la actividad que tenga lugar en su casa durante su ausencia. Programar las luces para que se enciendan y las cámaras para que comiencen a grabar cuando se active un detector de movimiento."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "202",
+			"left": "470",
+			"title": "Glass break sensor",
+			"title_s":"Detector de rompimiento de vidrios",
+			"description": "Detect a glass break and tell Iris to sound the alarm.",
+			"description_s":"Detecta cuando se rompe un vidrio y le avisa a Iris para que active la alarma.",
+			"position" : "left",
+			"icon" : "GlassBreakSensor_s",
+			"active":"GlassBreakSensor_a",
+			"inactive":"GlassBreakSensor_i"
+		},
+		"h2": {
+			"top": "272",
+			"left": "950",
+			"title": "Video Camera",
+			"title_s":"Cámara de video",
+			"description": "A camera with motion sensor can record activity around the house.",
+			"description_s":"Una cámara con detector de movimiento puede grabar cualquier actividad en la casa.",
+			"icon" : "videoCamera_s",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		}
+		,
+		"h3": {
+			"top": "300",
+			"left": "323",
+			"title": "Outdoor Module",
+			"title_s":"Módulo para exteriores",
+			"description": "Shine a little light on any activity once a motion sensor is activated.",
+			"description_s":"Dirige una pequeña luz hacia cualquier actividad una vez que se active un detector de movimiento.",
+			"icon" : "SmartBulb_s",
+			"position" : "left",
+			"active":"OutdoorModule_a",
+			"inactive":"OutdoorModule_i"
+		}
+	}
+}, {
+	"img": "test.jpg",
+	"details" : {
+		"title" : "Stop a water leak before it becomes a problem.",
+		"title_s": "Detener una fuga de agua antes de que se convierta en un problema.",
+		"description" : "Use the smart water shut-off valve and wireless leak detectors to alert you of water leaks so you can automatically turn off the water supply using the Iris app.",
+		"description_s": "Iris usa la válvula de cierre  la válvula de cierre inteligente y los detectores de fugas inalámbricos para avisarle cuando se produce una fuga de agua para que usted pueda cerrar automáticamente el suministro de agua usando la aplicación de Iris."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "623",
+			"left": "100",
+			"title": "Leak Detector",
+			"title_s": "Detector de fugas",
+			"description": "Wireless leak detectors can alert you immediately of a leak.",
+			"description_s":"Los detectores de fugas inalámbricos pueden avisarle inmediatamente cuando se produce una fuga.",
+			"position" : "topRight",
+			"icon" : "LeakDetector_s",
+			"active":"LeakDetector_a",
+			"inactive":"LeakDetector_i"
+		},
+		"h2": {
+			"top": "470",
+			"left": "845",
+			"title": "Shut-off Valve",
+			"title_s": "Válvula de cierre",
+			"description": "A smart water shut-off valve quickly stops a leak before it’s too late. ",
+			"description_s":"Una válvula inteligente de cierre del agua que detiene inmediatamente las fugas antes de que sea demasiado tarde.",
+			"icon" : "ShutOffValve_s",
+			"position" : "left",
+			"active":"ShutOffValve_a",
+			"inactive":"ShutOffValve_i"
+		}
+		
+	}
+},
+{
+	
+	"img": "livingRoom.jpg",
+	"details" : {
+		"title" : "Tell you when your children arrive home safely.",
+		"title_s" : "Avisarle cuando los niños lleguen a casa de manera segura.",
+		"description" : "Iris tells you when the kids are home from school by alerting you that your child’s smart fob has been detected. You can also control TV use to make homework a priority.",
+		"description_s" : "Iris le avisa cuando los niños llegan de la escuela al alertarle cuando detecta la llave remota inteligente de su hijo. Y también puede controlar el uso del televisor para que las tareas escolares sean la prioridad."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "403",
+			"left": "321",
+			"title": "Door Locks",
+			"title_s" : "Cerradura para puerta",
+			"description": "Doors automatically unlock when your child’s smart fob is detected.",
+			"description_s":"Las puertas se abren automáticamente al detectar la llave remota inteligente de su hijo.",
+			"position" : "left",
+			"icon" : "SmartLock_s",
+			"active":"SmartLock_a",
+			"inactive":"SmartLock_i"
+		},
+		"h2": {
+			"top": "329",
+			"left": "515",
+			"title": "Smart Fob",
+			"title_s" : "Llave remota inteligente",
+			"description": "A smart fob on a backpack can unlock the door when your kids get home.",
+			"description_s":"Una llave remota inteligente en una mochila permite abrir la puerta cuando los niños lleguen a casa.",
+			"icon" : "SmartFob_s",
+			"position" : "topRight",
+			"active":"SmartFob_a",
+			"inactive":"SmartFob_i"
+		}
+		,
+		"h3": {
+			"top": "526",
+			"left": "841",
+			"title": "Smart Plug",
+			"title_s" : "Enchufe inteligente",
+			"description": "A smart plug can be set to shut off electronics to make homework a priority.",
+			"description_s":"Un enchufe inteligente puede programarse para apagar los aparatos electrónicos a fin de priorizar las tareas escolares.",
+			"icon" : "SmartPlug_s",
+			"position" : "left",
+			"active":"SmartPlug_a",
+			"inactive":"SmartPlug_i"
+		}
+	}
+},
+{
+	"addSpace": "true",
+	"img": "carbon.jpg",
+	"details" : {
+		"title" : "Alert you to a CO leak and react accordingly.",
+		"title_s": "Alertarle de una fuga de monóxido de carbono y reaccionar al respecto.",
+		"description" : "Don’t take any chances when it comes to CO leaks in your home. Set up Iris so that when the CO detector is triggered, your house will automatically react to let you know of danger.",
+		"description_s" : "No corra ningún riesgo en cuanto a las fugas de monóxido de carbono. Programe a Iris para que su casa reaccione automáticamente y le avise del peligro cuando se active el detector de monóxido de carbono."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "222",
+			"left": "20",
+			"title": "Siren",
+			"title_s":"Sirena",
+			"description": "You can set up your siren to immediately sound when CO is detected.",
+			"description_s": "Usted puede programar la sirena para que suene inmediatamente cuando se detecte la presencia de monóxido de carbono.",
+			"position" : "topRight",
+			"icon" : "Siren_s",
+			"active":"Siren_a",
+			"inactive":"Siren_i"
+		},
+		"h2": {
+			"top": "245",
+			"left": "330",
+			"title": "Ceiling Fan",
+			"title_s":"Ventilador de techo",
+			"description": "Your ceiling fan can respond when CO is detected to help circulate air.",
+			"description_s": "Su ventilador de techo puede reaccionar ante la presencia de monóxido de carbono para promover la circulación de aire.",
+			"icon" : "CeilingFan_s",
+			"position" : "left",
+			"active":"CeilingFan_a",
+			"inactive":"CeilingFan_i"
+		}
+		,
+		"h3": {
+			"top": "222",
+			"left": "585",
+			"title": "Smoke/Co Detector",
+			"title_s":"Detector de monóxido de carbono",
+			"description": "When CO is detected, you will be immediately alerted.",
+			"description_s": "Cuando se detecta la presencia de monóxido de carbono, usted recibe inmediatamente una alerta.",
+			"icon" : "COdetector_s",
+			"position" : "topRight",
+			"active":"COdetector_a",
+			"inactive":"COdetector_i"
+		}
+		,
+		"h4": {
+			"top": "420",
+			"left": "740",
+			"title": "Door Lock",
+			"title_s": "Cerraduras para puertas",
+			"description": "Iris can unlock appropriate doors to let you out safely when CO is detected.",
+			"description_s":"Iris puede abrir la cerradura de las puertas específicas para facilitar la salida segura al detectarse la presencia de monóxido de carbono.",
+			"icon" : "SmartLock_s",
+			"position" : "left",
+			"active":"SmartLock_a",
+			"inactive":"SmartLock_i"
+		}
+		,
+		"h5": {
+			"top": "272",
+			"left": "1003",
+			"title": "Smart Bulb",
+			"title_s": "Bombilla inteligente",
+			"description": "Iris can turn on lights in your bedroom or other area when CO is detected.",
+			"description_s":"Iris puede encender las luces en su dormitorio o cualquier otra habitación cuando se detecte la presencia de monóxido de carbono.",
+			"icon" : "SmartBulb_s",
+			"position" : "left",
+			"active":"SmartBulb_a",
+			"inactive":"SmartBulb_i"
+		}
+	}
+},
+{
+	"index": "0",
+	"img": "nightActivity.jpg",
+	"details" : {
+		"title" : "Detect motion and turn on lights when you need them.",
+		"title_s":"Detectar cualquier movimiento y encender las luces cuando usted las necesite.",
+		"description" : "Nighttime snack? Midnight bathroom break? Both can be easier. Just set a motion sensor to trigger lights in your bathroom and hallways to turn on when motion is detected late at night.",
+		"description_s" : "¿Sintió hambre de noche? ¿Necesita ir al baño? Ahora es mucho más fácil, solo tiene que programar el detector de movimiento para que las luces del baño y los pasillos se enciendan cuando se detecte algún movimiento durante la noche."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "320",
+			"left": "440",
+			"title": "Light Switch",
+			"title_s":"Interruptor de luz",
+			"description": "Set lights to only turn on halfway during nighttime bathroom breaks.",
+			"description_s" :"Programe las luces para que solo se enciendan parcialmente cuando vaya al baño durante la noche.",
+			"position" : "right",
+			"icon" : "LightSwitch_s",
+			"active":"LightSwitch_a",
+			"inactive":"LightSwitch_i"
+		},
+		"h2": {
+			"top": "72",
+			"left": "656",
+			"title": "Motion Sensor",
+			"title_s":"Detector de movimiento",
+			"description": "Set your motion sensor to trigger lights when you’re up at night.",
+			"description_s":"Programe el detector de movimiento para activar las luces cuando usted se levante de madrugada.",
+			"icon" : "MotionSensor_s",
+			"position" : "left",
+			"active":"MotionSensor_a",
+			"inactive":"MotionSensor_i"
+		}
+		
+	}
+},
+{
+	
+	"img": "protect.jpg",
+	"addPadding": "true",
+	"details" : {
+		"title" : "Watch over the status of valuable items in your home.",
+		"title_s":"Vigilar el estado de sus pertenencias valiosas en su hogar. ",
+		"description" : "Keep important items safe when you aren’t home using a tilt sensor to detect when your jewelry box is being opened without your permission. For extra security, use a camera as well.",
+		"description_s" : "Mantenga la seguridad de sus objetos importantes cuando esté fuera de casa mediante un sensor de inclinación que detecta cuando se abre un joyero sin autorización suya. Y para más seguridad, agrege también una cámara."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "100",
+			"left": "45",
+			"title": "Video Camera",
+			"title_s":"Cámara de video",
+			"description": "Keep an eye on valuables any time of the day with a well-placed camera.",
+			"description_s":"Vigile sus objetos valiosos en cualquier momento del día con una cámara ubicada estratégicamente. ",
+			"position" : "right",
+			"icon" : "videoCamera_s",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "519",
+			"left": "940",
+			"title": "Tilt Sensor",
+			"title_s":"Sensor de inclinación",
+			"description": "Be alerted when a valuable box is opened with a simple tilt sensor.",
+			"description_s":"Reciba una alerta cuando se abra una caja de objetos valiosos gracias a un simple sensor de inclinación.",
+			"icon" : "TiltSensor_s",
+			"position" : "left",
+			"active":"TiltSensor_a",
+			"inactive":"TiltSensor_i"
+		}
+		
+	}
+},
+{
+	
+	"img": "petMonitor.jpg",
+	"details" : {
+		"title" : "Monitor your pets while you’re away.",
+		"title_s" : "Monitorear sus mascotas cuando esté fuera de casa.",
+		"description" : "Keep an eye on your pet while you’re at work. A motion sensor and camera can be the perfect at-home assistant to monitor all your pet’s daily habits.",
+		"description_s": "Vele a su mascota cuando usted esté en el trabajo. Un detector de movimiento y una cámara constituyen una vía excelente para monitorear todos los hábitos diarios de su mascota."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "30",
+			"left": "27",
+			"title": "Video Camera",
+			"title_s":"Cámara de video",
+			"description": "Place a camera near a food bowl to monitor your pet’s eating habits.",
+			"description_s":"Coloque una cámara cerca del recipiente de comida para monitorear los hábitos alimentarios de su mascota.",
+			"position" : "right",
+			"icon" : "videoCamera_s",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h2": {
+			"top": "68",
+			"left": "983",
+			"title": "Motion Sensor",
+			"title_s":"Detector de movimiento",
+			"description": "A motion sensor can let you know where your pet is during the day.",
+			"description_s":"Un detector de movimiento puede informarle de la ubicación de su mascota durante el día.",
+			"position" : "left",
+			"icon" : "MotionSensor_s",
+			"active":"MotionSensor_a",
+			"inactive":"MotionSensor_i"
+		},
+		"h3": {
+			"top": "400",
+			"left": "300",
+			"title": "Smart Pet Door",
+			"title_s":"Puerta inteligente para mascotas",
+			"description": "The Smart Key attached to your pet’s collar can activate the Smart Pet Door to let your pet outside.",
+			"description_s":"La llave inteligente acoplada al collar de su mascota puede activar la puerta inteligente para permitir la salida de su mascota.",
+			"position" : "right",
+			"icon" : "dogDoor_s",
+			"active":"SmartPetDoor_a",
+			"inactive":"SmartPetDoor_i"
+		}
+		
+	}
+},
+{
+	
+	"img": "nightWatch.jpg",
+	"details" : {
+		"title" : "Record activities that happen throughout the night.",
+		"title_s":"Grabar las actividades que tengan lugar durante toda la noche.",
+		"description" : "Peace of mind is important for a good night’s rest. Iris can provide just that by turning on a porch light, setting your camera to record and sending you an alert when either device is activated.",
+		"description_s" : "La tranquilidad es un aspecto clave para dormir y descansar bien de noche. Iris lo hace posible al encender la luz del porche, activar la cámara para grabar y enviarle una alerta a usted cuando se active cualquiera de los aparatos."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "475",
+			"left": "220",
+			"title": "Light Switch",
+			"title_s":"Interruptor de luz",
+			"description": "Porch lights can turn on when motion sensor is activated at night.",
+			"description_s":"Las luces del porche se pueden encender cuando se detecta un movimiento durante la noche. ",
+			"position" : "right",
+			"icon" : "LightSwitch_s",
+			"active":"LightSwitch_a",
+			"inactive":"LightSwitch_i"
+		},
+		"h2": {
+			"top": "272",
+			"left": "950",
+			"title": "Video Camera",
+			"title_s":"Cámara de video",
+			"description": "A camera can record activities that happen around the house at night.",
+			"description_s":"Una cámara le permite grabar las actividades que tengan lugar alrededor de la casa durante la noche.",
+			"icon" : "videoCamera_s",
+			"position" : "left",
+			"active":"videoCamera_a",
+			"inactive":"videoCamera_i"
+		},
+		"h3": {
+			"top": "500",
+			"left": "725",
+			"title": "Door Locks",
+			"title_s":"Cerraduras para puertas",
+			"description": "You can monitor all doors and make sure they're locked.",
+			"description_s":"Usted puede monitorear todas las puertas y asegurarse de que estén cerradas con llave.",
+			"icon" : "SmartLock_s",
+			"position" : "left",
+			"active":"SmartLock_a",
+			"inactive":"SmartLock_i"
+		}
+		
+	}
+},
+{
+	"addSpace": "true",
+	"img": "glassBreaking.jpg",
+	"addPadding":"true",
+	"details" : {
+		"title" : "Inform you when glass is broken and sound the alarm.",
+		"title_s":"Avisarle cuando se haya roto un vidrio y activar la alarma.",
+		"description" : "Be the first to know when glass is broken in your home so you can make sure everything is safe. Iris can tell you when glass is broken and react accordingly.",
+		"description_s" :"Entérese cuando se haya roto un vidrio en su hogar para que usted pueda garantizar la seguridad de todo. Iris puede avisarle del rompimiento de un vidrio y reaccionar al respecto." 
+		
+	},
+	"hotspots": {
+		
+		"h1": {
+			"top": "80",
+			"left": "400",
+			"title": "Glass Break Sensor",
+			"title_s": "Detector de rompimiento de vidrios",
+			"description": "Detects a glass break and tells Iris to sound the alarm.",
+			"description_s":"Detecta cuando se rompe un vidrio y le avisa a Iris para que active la alarma.",
+			"icon" : "GlassBreakSensor_s",
+			"position" : "right",
+			"active":"GlassBreakSensor_a",
+			"inactive":"GlassBreakSensor_i"
+		}
+		,
+		"h2": {
+			"top": "450",
+			"left": "770",
+			"title": "Smart Plug",
+			"title_s": "Enchufe inteligente",
+			"description": "When glass is broken, a smart plug can be set to automatically turn on lamps, stereos, TVs and more.",
+			"description_s":"Cuando se detecta el rompimiento de un vidrio, el enchufe inteligente puede encender automáticamente lámparas, equipos de audio, televisores y otros aparatos.",
+			"icon" : "SmartPlug_s",
+			"position" : "left",
+			"active":"SmartPlug_a",
+			"inactive":"SmartPlug_i"
+		}
+		,
+		"h3": {
+			"top": "35",
+			"left": "50",
+			"title": "Siren",
+			"title_s": "Sirena",
+			"description": "An indoor siren can be set to activate if a glass break is detected.",
+			"description_s":"Al detectarse el rompimiento de un vidrio, se puede activar una sirena en el interior de su hogar.",
+			"icon" : "Siren_s",
+			"position" : "right",
+			"active":"Siren_a",
+			"inactive":"Siren_i"
+		}
+	}
+},
+{
+	"index": "0",
+	"img": "handsOff.jpg",
+	"details" : {
+		"title" : "Know when a cabinet, cupboard or drawer is opened.",
+		"title_s":"Enterarse cuando se abre un gabinete, armario o gaveta.",
+		"description" : "Iris panic button can alert you to a fall in the bathroom or other possible emergency concerning elderly parents. Contact sensors can tell you when a medicine cabinet is opened.",
+		"description_s":"El botón de alarma de Iris le puede avisar si alguien se cae en el baño o de cualquier otra posible situación de emergencia relacionada con los ancianos. Los sensores de contacto le avisan cuando se abre el botiquín."
+		
+	},
+	"hotspots": {
+		"h1": {
+			"top": "420",
+			"left": "810",
+			"title": "Panic Button",
+			"title_s":"Botón de alarma",
+			"description": "Be alerted if there’s an emergency concerning an elderly parent.",
+			"description_s":"Entérese si se produce alguna situación de emergencia relacionada con un anciano en su familia.",
+			"position" : "left",
+			"icon" : "panic_s",
+			"active":"panic_a",
+			"inactive":"panic_i"
+		},
+		"h2": {
+			"top": "220",
+			"left": "380",
+			"title": "Contact Sensor",
+			"title_s": "Sensor de contacto",
+			"description": "Know immediately when someone opens the medicine cabinet.",
+			"description_s":"Entérese inmediatamente si alguien abre el botiquín.",
+			"position" : "left",
+			"icon" : "ContactSensor_s",
+			"active":"ContactSensor_a",
+			"inactive":"ContactSensor_i"
+		}
+	}
+}
+]
