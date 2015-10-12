@@ -222,8 +222,8 @@
 	},
 	"hotspots": {
 		"h1": {
-			"top": "320",
-			"left": "440",
+			"top": "340",
+			"left": "455",
 			"title": "Light Switch",
 			"title_s":"Interruptor de luz",
 			"description": "Set lights to only turn on halfway during nighttime bathroom breaks.",
@@ -234,14 +234,14 @@
 			"inactive":"LightSwitch_i"
 		},
 		"h2": {
-			"top": "72",
-			"left": "656",
+			"top": "149",
+			"left": "215",
 			"title": "Motion Sensor",
 			"title_s":"Detector de movimiento",
 			"description": "Set your motion sensor to trigger lights when you’re up at night.",
 			"description_s":"Programe el detector de movimiento para activar las luces cuando usted se levante de madrugada.",
 			"icon" : "MotionSensor_s",
-			"position" : "left",
+			"position" : "right",
 			"active":"MotionSensor_a",
 			"inactive":"MotionSensor_i"
 		}
@@ -452,13 +452,13 @@
 	},
 	"hotspots": {
 		"h1": {
-			"top": "420",
-			"left": "810",
+			"top": "620",
+			"left": "587",
 			"title": "Panic Button",
 			"title_s":"Botón de alarma",
 			"description": "Be alerted if there’s an emergency concerning an elderly parent.",
 			"description_s":"Entérese si se produce alguna situación de emergencia relacionada con un anciano en su familia.",
-			"position" : "left",
+			"position" : "topRight",
 			"icon" : "panic_s",
 			"active":"panic_a",
 			"inactive":"panic_i"

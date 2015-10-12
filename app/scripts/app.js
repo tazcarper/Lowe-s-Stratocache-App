@@ -124,13 +124,12 @@ angular
 
     $rootScope.lastDigestRun = Date.now();
     $interval(function() {
-      console.log('check idle');
       var now = Date.now();
-      if (now - $rootScope.lastDigestRun > 3 * 60 * 1000 && $location.path() !== '/') {
-        console.log('go home');
-        $rootScope.goHome();
+      // 30 sec 
+      if (now - $rootScope.lastDigestRun > 0.5 * 60 * 1000 && $location.path() !== '/') {
+       $rootScope.goHome();
       }
-    }, 29 * 1000);
+    }, 9.9 * 1000);
 
 
 
