@@ -126,7 +126,7 @@ angular
     $interval(function() {
       var now = Date.now();
       // 30 sec 
-      if (now - $rootScope.lastDigestRun > 0.5 * 60 * 1000 && $location.path() !== '/') {
+      if (now - $rootScope.lastDigestRun > 1.5 * 60 * 1000 && $location.path() !== '/') {
        $rootScope.goHome();
       }
     }, 9.9 * 1000);

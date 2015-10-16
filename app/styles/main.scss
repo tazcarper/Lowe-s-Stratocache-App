@@ -118,20 +118,15 @@ p {
 
 // red purple
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4d2179+58,ce1b6d+100 */
-background: #4b2278; /* Old browsers */
-background: -moz-linear-gradient(top,  #4b2278 58%, #ce1b6d 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(58%,#4b2278), color-stop(100%,#ce1b6d)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #4b2278 58%,#ce1b6d 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #4b2278 58%,#ce1b6d 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #4b2278 58%,#ce1b6d 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #4b2278 58%,#ce1b6d 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b2278', endColorstr='#ce1b6d',GradientType=0 ); /* IE6-9 */
-
+background:white;
   // change to width when turned?
   height: 1920px;
   padding-top:60px;
 }
-
+video {
+  position: relative;
+  margin-top: -65px;
+}
 .button {
   color: white;
   border-radius: 5px;
@@ -153,12 +148,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b2278', end
 .homeButton {
   width: 780px;
   text-align: center;
-  font-size: 2.5em;
-  padding: 3.25rem 0 3.25rem 0rem;
+  font-size: 2.2em;
+  padding: 2.25rem 0 2.25rem 0rem;
   margin: 0 auto;
-  margin-top: 14rem;
-  margin-bottom: 5rem;
-  height: 113px;
+  margin-top: 3.5rem;
+  margin-bottom: 1rem;
+  height: auto;
 }
 .whiteArrow {
   width: 25px;
@@ -167,6 +162,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b2278', end
 }
 .irisLogo-white {
   width: 250px;
+  margin-bottom: 3rem;
+}
+.greyLogo {
+  margin-bottom: 3rem;
+  margin-top:4rem;
+  img {
+    width:120px;
+  }
+
 }
 .homeLogo {
   text-align: center;
