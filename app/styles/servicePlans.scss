@@ -6,16 +6,16 @@ $pageHeightFull: 1820px;
 	height:$pageHeightFull;
 	 h1 {
 	 	text-align: left;
-	 	font-size:80px;
+	 	font-size:60px;
 	 	padding-top: 6rem;
 	 	margin-bottom: 0;
 	 	padding-bottom: 0;
 	 }
 	 p {
 	 	margin-top: 35px;
-	 	font-size:25px;
+	 	font-size:20px;
 	 	font-family: "Museo Slab W01_100";
-	 	margin-bottom: 50px;
+	 	margin-bottom: 35px;
 	 }
 	 .details {
 	 	text-align: center;
@@ -26,4 +26,259 @@ $pageHeightFull: 1820px;
 	 img {
 	 	width:100%;
 	 }
+}
+.comparisonTable-table {
+	width: 100%;
+	//background: #fff;
+	table-layout: fixed
+}
+@media (max-width:29.9375em) {
+	.comparisonTable-table {
+		font-size: 0.8em
+	}
+}
+.comparisonTable-table th, .comparisonTable-table td {
+	padding-right: 1em;
+	padding-left: 1em
+}
+.comparisonTable-table td {
+	padding-top: .65em;
+	padding-bottom: .65em;
+	border-top: 1px #a5a5a5 solid;
+	
+}
+.comparisonTable-heading {
+	padding-top: 2.33333em;
+	padding-bottom: 1.66667em;
+	text-align: center;
+	vertical-align: top
+}
+
+	
+
+.comparisonTable-table-body>tr>td:last-child {
+	border-top:1px rgba(3,10,14,0.05) solid;
+}
+.comparisonTable-table-body>tr>td:nth-last-child(2) {
+	border-top:1px rgba(3,10,14,0.05) solid;
+}
+.comparisonTable-table-body>tr>td:nth-last-child(3) {
+	background:white;
+}
+.comparisonTable-table-body>tr>td:nth-last-child(4) {
+	background:white;
+}
+.comparisonTable-col-title, .comparisonTable-table-body-title--desktop {
+	width: 4.16667%
+}
+.comparisonTable-row-caption {
+	width: 34.16667%
+}
+.comparisonTable-col-1, .comparisonTable-col-2 {
+	width: 28.33333%
+}
+.comparisonTable-col-1 {
+	background: #319bcd;
+	color: #fff
+}
+.comparisonTable-col-2 {
+	background: #358ac1;
+	color: #fff
+}
+.comparisonTable .comparisonTable-table-body-title {
+	font-size: 0.8em;
+	font-family: "Avenir Next W00", "Avenir Next", "Proxima Nova", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	padding-right: 0;
+	padding-left: 0;
+	background:white;
+}
+tfoot {
+	tr {
+	td {
+		&:nth-last-child(3){
+			background:white;
+		}
+		&:nth-last-child(4){
+			background:white;
+			border-top:1px #a5a5a5 solid;
+		}
+	}
+	}
+}
+@media (max-width:47.9375em) {
+	.comparisonTable .comparisonTable-table-body-title--desktop {
+		width: 0;
+		color: transparent;
+		font-size: 0
+	}
+}
+@media (min-width:48em) {
+	.comparisonTable .comparisonTable-table-body-title--mobile {
+		display: none
+	}
+}
+.comparisonTable .comparisonTable-table-body-title--mobile td {
+	padding-top: 0.8em;
+	padding-bottom: 0.8em;
+	text-align: left;
+	background:white;
+}
+.comparisonTable .comparisonTable-table-body-title--mobile+tr>td {
+//	border-top-color: rgba(3, 10, 14, 0.02)
+}
+.comparisonTable .comparisonTable-row-caption {
+	padding-left: 0.5em;
+	background:white;
+}
+@media (max-width:29.9375em) {
+	.comparisonTable .comparisonTable-row-caption {
+		width: 40%
+	}
+}
+.comparisonTable .comparisonTable-foot-cell {
+
+	border-top-color: #666666;
+}
+.comparisonTable-title-wrap {
+	position: relative;
+	min-height: 7em
+}
+.comparisonTable-title--rotate {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%) rotate(-90deg);
+	-ms-transform: translate(-50%, -50%) rotate(-90deg);
+	-moz-transform: translate(-50%, -50%) rotate(-90deg);
+	transform: translate(-50%, -50%) rotate(-90deg);
+	color: #319bcd
+}
+.plan-title {
+	margin: 0 0 0.22727em;
+	font-family: "Avenir Next W00", "Avenir Next", "Proxima Nova", "Helvetica", "Arial", sans-serif;
+	font-size: 18px !important;
+	
+}
+.plan-copy {
+	max-width: 16.66667em;
+	margin: 0 auto !important;
+	color: #fff;
+	font-size:16px !important;
+	font-family: "Museo Slab W01", "Museo Slab", "Rockwell", "Georgia", serif;
+	
+	line-height: 1.26667
+}
+@media (max-width:29.9375em) {
+	.plan-copy {
+		display: none
+	}
+}
+.plan-caption {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	color: #6a6b6d;
+	font-family: "Museo Slab W01", "Museo Slab", "Rockwell", "Georgia", serif;
+	font-weight: 400;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	-moz-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	-moz-flex-pack: justify;
+	justify-content: space-between
+}
+.plan-caption-item {
+	max-width: calc(100% - 1.56667em);
+	margin: 0;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	-moz-flex: 1 1 auto;
+	flex: 1 1 auto;
+	font-size:14px !important;
+	margin:0 !important;
+}
+.plan-caption-item em {
+	display: block
+}
+.plan-caption-item .no-flexbox {
+	display: inline-block;
+	max-width: 90%;
+	vertical-align: middle
+}
+.plan-caption-item--info {
+	position: relative;
+	width: 1.06667em;
+	height: 1.06667em
+}
+.plan-infoBtn {
+	display: block
+}
+.plan-infoBtn:hover, .plan-infoBtn:focus, .plan-infoBtn:active, .plan-infoBtn.active {
+	opacity: 0.5
+}
+.icon-info {
+	display: block;
+	width: 1.06667em;
+	height: 1.06667em;
+	float: right;
+	background-position: center;
+	background-size: 100% auto
+}
+.plan-info {
+	font-size: 0.8em;
+	font-family: "Avenir Next W00", "Avenir Next", "Proxima Nova", "Helvetica", "Arial", sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
+	text-align: center
+}
+.icon-check {
+	width: 1.53333em;
+	height: 1.13333em;
+	background-position: center;
+	background-size: 100% auto
+}
+.icon-check svg {
+	overflow: visible
+}
+.icon-check svg path {
+	display: inline;
+	fill: none;
+	stroke: #fff
+}
+.plan-price {
+	margin-bottom: 0.5em !important;
+	margin-top: .5em !important;
+	color: #fff;
+	font-family: "Avenir Next W00", "Avenir Next", "Proxima Nova", "Helvetica", "Arial", sans-serif;
+	font-size: 1.2em !important;
+	
+	line-height: 1.43;
+	text-align: center;
+	text-transform: none
+}
+@media (min-width:30em) {
+	.plan-price {
+		font-size: 1.46667em
+	}
+}
+.plan-price--alt {
+	display: block;
+	color: #9ee0ff
+}
+.package-price {
+	margin-bottom: 0.3em;
+	color: #319bcd;
+	font-size: 1.73333em
 }

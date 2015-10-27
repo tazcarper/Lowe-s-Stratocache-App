@@ -2,18 +2,64 @@
 $pageHeightWithBot: 1653px;
 $pageHeightFull: 1820px;
 .started {
-	background: url('../images/getStarted5.png') 0 -0px no-repeat;
+	background: #0091c4;
 	// background-color: $getStarted;
 	padding-top: 100px;
 	height: $pageHeightWithBot;
 	background-size: 100%;
 	h1 {
-		font-size:7em;
+		padding-top:15px;
+		font-size:6em;
+	}
+	h2 {
+		padding-top: 75px;
+		font-size:3em;
+		color: white;
+		font-family: "AvenirNextLTW01-Regular";
+		text-transform: uppercase;
 	}
 	p {
 		font-size: 1.97em;
+		position: relative;
+		img {
+			position: absolute;
+			top:0;
+			right:15px;
+		}
 	}
 	&.spanish {
-		background: url('../images/getStarted5_s.png') 0 -0px no-repeat;
+		//background: url('../images/getStarted5_s.png') 0 -0px no-repeat;
+	}
+	.productRow {
+		height: 340px;
+	}
+	.lightBlue {
+		background:#319bcd;
+	}
+	.darkBlue {
+		background:#0095c7;
+	}
+	.row {
+		padding-top: 35px;
+		padding-bottom: 35px;
+		position: relative;
+		min-height: 320px;
+	}
+	.hr {
+		position: absolute;
+		bottom:-36px;
+		left:0;
+		right:0;
+		margin:auto;
+		z-index: 999;
+	}
+	.productImg {
+		position: absolute;
+		top:0;
+		right:0;
+		max-width:505px;
+		width:auto;
+		height: auto;
+		max-height: 250px;
 	}
 }
