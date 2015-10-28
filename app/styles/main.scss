@@ -87,6 +87,16 @@ body {
   // background: black;
   height: 100%;
 }
+.backToHome {
+  background:black;
+  padding: 8px 15px;
+  color: white;
+  display: inline-block;
+  &:hover, &:focus {
+    color: white;
+    text-decoration: none;
+  }
+}
 .container {
   // max-width: 1920px !important;
   // max-height: 1200px;
