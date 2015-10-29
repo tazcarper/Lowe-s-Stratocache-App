@@ -1,0 +1,42 @@
+* {
+   cursor: none !important; /* OVERRIDES ANY INLINE CSS CURSOR SPECIFICATIONS */
+}
+
+/*//////////////////////////////////////////*/
+/*//////////Internet Connection/////////////*/
+/*//////////////////////////////////////////*/	
+#offInternetConnection{
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	top:2px;
+	right:2px;
+	z-index: 1111111;
+}	
+
+#internetConnection{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	top: 6px;
+	right: 6px;
+	z-index: 1111111;
+	background-image: url(../images/internetConnection.png);
+	background-repeat: no-repeat;
+}
+
+.one{ 
+	background-position:0 0; 
+}
+.two{ 
+	background-position:-30px 0; 
+}
+.three{ 
+	background-position:-60px 0; 
+}
+.four{ 
+	background-position:-90px 0; 
+}
+.off{ 
+	background-position:-120px 0; 
+}
